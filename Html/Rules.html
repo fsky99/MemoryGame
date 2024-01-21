@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rules</title>
+  <link rel="stylesheet" href="../CSS/global.css">
+
+</head>
+<body>
+  <div id="CloseButtonID">
+  <button class="CloseButton" onclick="GoBackHome()">
+    <span class="X"></span>
+    <span class="Y"></span>
+    <div class="closeClass">Close</div>
+  </button>
+</div>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+<div id="RulesDiv">
+  <button class="buttonR" onclick="ShowRules()">
+    <div class="lid">
+      <span class="side top"></span>
+      <span class="side front"></span>
+      <span class="side back"> </span>
+      <span class="side left"></span>
+      <span class="side right"></span>
+    </div>
+    <div class="panels">
+      <div class="panel-1">
+        <div class="panel-2">
+          <div class="btn-trigger">
+            <span class="btn-trigger-1"></span>
+            <span class="btn-trigger-2"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </button>
+</div>
+
+<div id="TheRulesDiv">
+ 
+
+</div>
+</body>
+<script>
+  function ShowRules(){
+console.log("show rules")
+let rules = document.getElementById('TheRulesDiv')
+rules.innerHTML = '  <div class="container"> <div data-text="Rule One" style="--r:-15;" class="glass"> <p>You need to pick a level of diffculty 60 , 40 or 20 Second, the default will be set to easy which is 60 Seconds.</p>  </div><div data-text="Rule Two" style="--r:5;" class="glass"><p>You will have different levels of the game starting by 4x4 and so on.</p></div> <div data-text="Rule Three" style="--r:25;" class="glass"> <p>You can get a hint which will show you all the images for few seconds to help you win.</p></div></div>'
+  }
+
+  function GoBackHome(){
+    window.location.href = "PageOne.html";
+
+  }
+</script>
+</html>
