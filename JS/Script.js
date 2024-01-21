@@ -1,4 +1,5 @@
 let winner = document.getElementById('winner')
+let timerDiv = document.getElementById('timerDiv')
 let Win = 16
 
 let icon1 = document.getElementById('icon1')
@@ -41,6 +42,25 @@ function CheckWin() {
     winner.innerHTML = '<h1>YOU WON !!!! :)</h1>'
   }
 }
+function getTimer() {
+  let timer = localStorage.getItem('timer')
+  console.log(timer)
+  time = timer
+  interval = setInterval(function () {
+    document.getElementById('timerDiv').innerHTML =
+      '<h5>Time Left: ' + time + ' Seconds</h5>'
+    if (Win == 0) {
+      document.getElementById('MainDiv').innerHTML = ''
+      clearInterval(interval)
+    } else if (time == 0) {
+      clearInterval(interval)
+      document.getElementById('MainDiv').innerHTML =
+        '<h1>Time!! Better luck next time :) </h1>'
+    }
+    time--
+  }, 500)
+}
+getTimer()
 icon1.addEventListener('click', () => {
   icon1IMG.innerHTML = '<img src="../Icons/icon1.png">'
   let icon1Interval = 0
@@ -49,13 +69,12 @@ icon1.addEventListener('click', () => {
       icon1IMG.innerHTML = '<img src="../Icons/icon1.png">'
       clearInterval(icon1Interval)
       Win--
+      CheckWin()
     } else {
       icon1IMG.innerHTML = ''
       clearInterval(icon1Interval)
     }
   }, 2000)
-
-  CheckWin()
 })
 icon2.addEventListener('click', () => {
   icon2IMG.innerHTML = '<img src="../Icons/icon2.png">'
@@ -65,13 +84,12 @@ icon2.addEventListener('click', () => {
       icon2IMG.innerHTML = '<img src="../Icons/icon2.png">'
       clearInterval(icon2Interval)
       Win--
+      CheckWin()
     } else {
       icon2IMG.innerHTML = ''
       clearInterval(icon2Interval)
     }
   }, 2000)
-
-  CheckWin()
 })
 icon3.addEventListener('click', () => {
   icon3IMG.innerHTML = '<img src="../Icons/icon3.png">'
@@ -82,13 +100,12 @@ icon3.addEventListener('click', () => {
       icon3IMG.innerHTML = '<img src="../Icons/icon3.png">'
       clearInterval(icon3Interval)
       Win--
+      CheckWin()
     } else {
       icon3IMG.innerHTML = ''
       clearInterval(icon3Interval)
     }
   }, 2000)
-
-  CheckWin()
 })
 icon4.addEventListener('click', () => {
   icon4IMG.innerHTML = '<img src="../Icons/icon4.png">'
@@ -99,13 +116,12 @@ icon4.addEventListener('click', () => {
       icon4IMG.innerHTML = '<img src="../Icons/icon4.png">'
       clearInterval(icon4Interval)
       Win--
+      CheckWin()
     } else {
       icon4IMG.innerHTML = ''
       clearInterval(icon4Interval)
     }
   }, 2000)
-
-  CheckWin()
 })
 icon5.addEventListener('click', () => {
   icon5IMG.innerHTML = '<img src="../Icons/icon5.png">'
@@ -116,13 +132,12 @@ icon5.addEventListener('click', () => {
       icon5IMG.innerHTML = '<img src="../Icons/icon5.png">'
       clearInterval(icon5Interval)
       Win--
+      CheckWin()
     } else {
       icon5IMG.innerHTML = ''
       clearInterval(icon5Interval)
     }
   }, 2000)
-
-  CheckWin()
 })
 icon6.addEventListener('click', () => {
   icon6IMG.innerHTML = '<img src="../Icons/icon6.png">'
@@ -133,13 +148,12 @@ icon6.addEventListener('click', () => {
       icon6IMG.innerHTML = '<img src="../Icons/icon6.png">'
       clearInterval(icon6Interval)
       Win--
+      CheckWin()
     } else {
       icon6IMG.innerHTML = ''
       clearInterval(icon6Interval)
     }
   }, 2000)
-
-  CheckWin()
 })
 icon8.addEventListener('click', () => {
   icon8IMG.innerHTML = '<img src="../Icons/icon8.png">'
@@ -150,13 +164,12 @@ icon8.addEventListener('click', () => {
       icon8IMG.innerHTML = '<img src="../Icons/icon8.png">'
       clearInterval(icon8Interval)
       Win--
+      CheckWin()
     } else {
       icon8IMG.innerHTML = ''
       clearInterval(icon8Interval)
     }
   }, 2000)
-
-  CheckWin()
 })
 icon10.addEventListener('click', () => {
   icon10IMG.innerHTML = '<img src="../Icons/icon10.png">'
@@ -167,13 +180,12 @@ icon10.addEventListener('click', () => {
       icon10IMG.innerHTML = '<img src="../Icons/icon10.png">'
       clearInterval(icon10Interval)
       Win--
+      CheckWin()
     } else {
       icon10IMG.innerHTML = ''
       clearInterval(icon10Interval)
     }
   }, 2000)
-
-  CheckWin()
 })
 
 icon1Match.addEventListener('click', () => {
@@ -185,13 +197,12 @@ icon1Match.addEventListener('click', () => {
       icon1MatchIMG.innerHTML = '<img src="../Icons/icon1.png">'
       clearInterval(icon1MtachInterval)
       Win--
+      CheckWin()
     } else {
       icon1MatchIMG.innerHTML = ''
       clearInterval(icon1MtachInterval)
     }
   }, 2000)
-
-  CheckWin()
 })
 icon2Match.addEventListener('click', () => {
   icon2MatchIMG.innerHTML = '<img src="../Icons/icon2.png">'
@@ -201,13 +212,12 @@ icon2Match.addEventListener('click', () => {
       icon2MatchIMG.innerHTML = '<img src="../Icons/icon2.png">'
       clearInterval(icon2MtachInterval)
       Win--
+      CheckWin()
     } else {
       icon2MatchIMG.innerHTML = ''
       clearInterval(icon2MtachInterval)
     }
   }, 2000)
-
-  CheckWin()
 })
 icon3Match.addEventListener('click', () => {
   icon3MatchIMG.innerHTML = '<img src="../Icons/icon3.png">'
@@ -218,13 +228,12 @@ icon3Match.addEventListener('click', () => {
       icon3MatchIMG.innerHTML = '<img src="../Icons/icon3.png">'
       clearInterval(icon3MtachInterval)
       Win--
+      CheckWin()
     } else {
       icon3MatchIMG.innerHTML = ''
       clearInterval(icon3MtachInterval)
     }
   }, 2000)
-
-  CheckWin()
 })
 icon4Match.addEventListener('click', () => {
   icon4MatchIMG.innerHTML = '<img src="../Icons/icon4.png">'
@@ -234,13 +243,12 @@ icon4Match.addEventListener('click', () => {
       icon4MatchIMG.innerHTML = '<img src="../Icons/icon4.png">'
       clearInterval(icon4MtachInterval)
       Win--
+      CheckWin()
     } else {
       icon4MatchIMG.innerHTML = ''
       clearInterval(icon4MtachInterval)
     }
   }, 2000)
-
-  CheckWin()
 })
 icon5Match.addEventListener('click', () => {
   icon5MatchIMG.innerHTML = '<img src="../Icons/icon5.png">'
@@ -251,13 +259,12 @@ icon5Match.addEventListener('click', () => {
       icon5MatchIMG.innerHTML = '<img src="../Icons/icon5.png">'
       clearInterval(icon5MtachInterval)
       Win--
+      CheckWin()
     } else {
       icon5MatchIMG.innerHTML = ''
       clearInterval(icon5MtachInterval)
     }
   }, 2000)
-
-  CheckWin()
 })
 icon6Match.addEventListener('click', () => {
   icon6MatchIMG.innerHTML = '<img src="../Icons/icon6.png">'
@@ -267,13 +274,12 @@ icon6Match.addEventListener('click', () => {
       icon6MatchIMG.innerHTML = '<img src="../Icons/icon6.png">'
       clearInterval(icon6MtachInterval)
       Win--
+      CheckWin()
     } else {
       icon6MatchIMG.innerHTML = ''
       clearInterval(icon6MtachInterval)
     }
   }, 2000)
-
-  CheckWin()
 })
 icon8Match.addEventListener('click', () => {
   icon8MatchIMG.innerHTML = '<img src="../Icons/icon8.png">'
@@ -283,13 +289,12 @@ icon8Match.addEventListener('click', () => {
       icon8MatchIMG.innerHTML = '<img src="../Icons/icon8.png">'
       clearInterval(icon8MtachInterval)
       Win--
+      CheckWin()
     } else {
       icon8MatchIMG.innerHTML = ''
       clearInterval(icon8MtachInterval)
     }
   }, 2000)
-
-  CheckWin()
 })
 icon10Match.addEventListener('click', () => {
   icon10MatchIMG.innerHTML = '<img src="../Icons/icon10.png">'
@@ -300,11 +305,10 @@ icon10Match.addEventListener('click', () => {
       icon10MatchIMG.innerHTML = '<img src="../Icons/icon10.png">'
       clearInterval(icon10MtachInterval)
       Win--
+      CheckWin()
     } else {
       icon10MatchIMG.innerHTML = ''
       clearInterval(icon10MtachInterval)
     }
   }, 2000)
-
-  CheckWin()
 })

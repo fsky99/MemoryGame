@@ -22,3 +22,8 @@ img {
 h1 {
   font-family: sans-serif;
 }
+
+#timerDiv {
+  text-align: left;
+  font-size: 50px;
+}
