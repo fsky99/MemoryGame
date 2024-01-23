@@ -18,9 +18,8 @@
 
 ### **_Future Updates_**
 
-- [ ] 5x5 Matching
 - [ ] 6x6 Matching
-- [ ] 7x7 Matching
+- [ ] 8x8 Matching
 
 ---
 
