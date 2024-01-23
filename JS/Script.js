@@ -42,6 +42,12 @@ function CheckWin() {
     winner.innerHTML = '<h1>YOU WON !!!! :)</h1>'
   }
 }
+function RepeatLevel() {
+  window.location.reload()
+}
+function GoBackHome() {
+  window.location.href = 'PageOne.html'
+}
 function getTimer() {
   let timer = localStorage.getItem('timer')
   console.log(timer)
