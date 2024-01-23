@@ -40,15 +40,164 @@ let icon10MatchIMG = document.getElementById('icon10MatchIMG')
 function CheckWin() {
   if (Win == 0) {
     winner.innerHTML = '<h1>YOU WON !!!! :)</h1>'
+    clearInterval(interval)
   }
 }
+function RepeatLevel() {
+  window.location.reload()
+}
+function GoBackHome() {
+  window.location.href = 'PageOne.html'
+}
+function ShowMeHints() {
+  let icon1Exist = true
+  let icon2Exist = true
+  let icon3Exist = true
+  let icon4Exist = true
+  let icon5Exist = true
+  let icon6Exist = true
+  let icon8Exist = true
+  let icon10Exist = true
+  let icon1MacthExist = true
+  let icon2MacthExist = true
+  let icon3MacthExist = true
+  let icon4MacthExist = true
+  let icon5MacthExist = true
+  let icon6MacthExist = true
+  let icon8MacthExist = true
+  let icon10MacthExist = true
+
+  setTimeout(function ShowHints() {
+    if (icon1IMG.innerHTML === '') {
+      icon1IMG.innerHTML = '<img src="../Icons/icon1.png">'
+      icon1Exist = false
+    }
+    if (icon2IMG.innerHTML === '') {
+      icon2Exist = false
+      icon2IMG.innerHTML = '<img src="../Icons/icon2.png">'
+    }
+    if (icon3IMG.innerHTML === '') {
+      icon3IMG.innerHTML = '<img src="../Icons/icon3.png">'
+      icon3Exist = false
+    }
+
+    if (icon4IMG.innerHTML === '') {
+      icon4IMG.innerHTML = '<img src="../Icons/icon4.png">'
+      icon4Exist = false
+    }
+    if (icon5IMG.innerHTML === '') {
+      icon5IMG.innerHTML = '<img src="../Icons/icon5.png">'
+      icon5Exist = false
+    }
+    if (icon6IMG.innerHTML === '') {
+      icon6IMG.innerHTML = '<img src="../Icons/icon6.png">'
+      icon6Exist = false
+    }
+
+    if (icon8IMG.innerHTML === '') {
+      icon8IMG.innerHTML = '<img src="../Icons/icon8.png">'
+      icon8Exist = false
+    }
+    if (icon10IMG.innerHTML === '') {
+      icon10IMG.innerHTML = '<img src="../Icons/icon10.png">'
+      icon10Exist = false
+    }
+
+    if (icon1MatchIMG.innerHTML === '') {
+      icon1MatchIMG.innerHTML = '<img src="../Icons/icon1.png">'
+      icon1MacthExist = false
+    }
+    if (icon2MatchIMG.innerHTML === '') {
+      icon2MatchIMG.innerHTML = '<img src="../Icons/icon2.png">'
+      icon2MacthExist = false
+    }
+
+    if (icon3MatchIMG.innerHTML === '') {
+      icon3MatchIMG.innerHTML = '<img src="../Icons/icon3.png">'
+      icon3MacthExist = false
+    }
+    if (icon4MatchIMG.innerHTML === '') {
+      icon4MatchIMG.innerHTML = '<img src="../Icons/icon4.png">'
+      icon4MacthExist = false
+    }
+    if (icon5MatchIMG.innerHTML === '') {
+      icon5MatchIMG.innerHTML = '<img src="../Icons/icon5.png">'
+      icon5MacthExist = false
+    }
+    if (icon6MatchIMG.innerHTML === '') {
+      icon6MatchIMG.innerHTML = '<img src="../Icons/icon6.png">'
+      icon6MacthExist = false
+    }
+    if (icon8MatchIMG.innerHTML === '') {
+      icon8MatchIMG.innerHTML = '<img src="../Icons/icon8.png">'
+      icon8MacthExist = false
+    }
+    if (icon10MatchIMG.innerHTML === '') {
+      icon10MatchIMG.innerHTML = '<img src="../Icons/icon10.png">'
+      icon10MacthExist = false
+    }
+  }, 100)
+  setTimeout(function deleteHints() {
+    if (!icon1Exist) {
+      icon1IMG.innerHTML = ''
+    }
+    if (!icon2Exist) {
+      icon2IMG.innerHTML = ''
+    }
+    if (!icon3Exist) {
+      icon3IMG.innerHTML = ''
+    }
+    if (!icon4Exist) {
+      icon4IMG.innerHTML = ''
+    }
+    if (!icon5Exist) {
+      icon5IMG.innerHTML = ''
+    }
+    if (!icon6Exist) {
+      icon6IMG.innerHTML = ''
+    }
+    if (!icon8Exist) {
+      icon8IMG.innerHTML = ''
+    }
+    if (!icon10Exist) {
+      icon10IMG.innerHTML = ''
+    }
+    if (!icon1MacthExist) {
+      icon1MatchIMG.innerHTML = ''
+    }
+
+    if (!icon2MacthExist) {
+      icon2MatchIMG.innerHTML = ''
+    }
+    if (!icon3MacthExist) {
+      icon3MatchIMG.innerHTML = ''
+    }
+    if (!icon4MacthExist) {
+      icon4MatchIMG.innerHTML = ''
+    }
+
+    if (!icon5MacthExist) {
+      icon5MatchIMG.innerHTML = ''
+    }
+    if (!icon6MacthExist) {
+      icon6MatchIMG.innerHTML = ''
+    }
+    if (!icon8MacthExist) {
+      icon8MatchIMG.innerHTML = ''
+    }
+    if (!icon10MacthExist) {
+      icon10MatchIMG.innerHTML = ''
+    }
+  }, 500)
+}
+
 function getTimer() {
   let timer = localStorage.getItem('timer')
   console.log(timer)
   time = timer
   interval = setInterval(function () {
     document.getElementById('timerDiv').innerHTML =
-      '<h5>Time Left: ' + time + ' Seconds</h5>'
+      '<h5>' + time + ' Seconds</h5>'
     if (Win == 0) {
       document.getElementById('MainDiv').innerHTML = ''
       clearInterval(interval)
@@ -58,7 +207,7 @@ function getTimer() {
         '<h1>Time!! Better luck next time :) </h1>'
     }
     time--
-  }, 500)
+  }, 1000)
 }
 getTimer()
 icon1.addEventListener('click', () => {
