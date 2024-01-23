@@ -18,9 +18,8 @@
 
 ### **_Future Updates_**
 
-- [ ] 5x5 Matching
 - [ ] 6x6 Matching
-- [ ] 7x7 Matching
+- [ ] 8x8 Matching
 
 ---
 
@@ -33,5 +32,9 @@
 ### **_Credits_**
 
 ##### WireFrame: [MGMap](https://wireframe.cc/qBbFEG)
+
+##### Icons: [Icons](https://icons8.com/icons)
+
+##### Buttons and style: [buttons](https://uiverse.io/)
 
 ---

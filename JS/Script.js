@@ -39,10 +39,15 @@ let icon8MatchIMG = document.getElementById('icon8MatchIMG')
 let icon10MatchIMG = document.getElementById('icon10MatchIMG')
 function CheckWin() {
   if (Win == 0) {
-    winner.innerHTML = '<h1>YOU WON !!!! :)</h1>'
+    winner.innerHTML =
+      '<h1>YOU WON !!!! :)</h1> <br> <br><br><button class="nextLevelBtn" onclick="GoToNextLevel()">Next Level</button>'
     clearInterval(interval)
   }
 }
+function GoToNextLevel() {
+  window.location.href = 'PageThree.html'
+}
+
 function RepeatLevel() {
   window.location.reload()
 }
