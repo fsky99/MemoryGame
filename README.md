@@ -33,6 +33,8 @@
 
 ##### WireFrame: [MGMap](https://wireframe.cc/qBbFEG)
 
-##### Icons: [Icons](https://icons8.com/icons
+##### Icons: [Icons](https://icons8.com/icons)
+
+##### Buttons and style: [buttons](https://uiverse.io/)
 
 ---
