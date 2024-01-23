@@ -3,9 +3,119 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../CSS/global.css">
+  <script defer src="../JS/impLevel.js"> </script>
+  <title>Impossible Level</title>
 </head>
 <body>
-  
+  <br>
+  <div id="CloseButtonID">
+    <button class="CloseButton" onclick="GoBackHome()">
+      <span class="X"></span>
+      <span class="Y"></span>
+      <div class="closeClass">Close</div>
+    </button>
+    <div id="timerDiv">
+
+    </div>
+    <div id="winner"></div>
+
+  <button class="RepeatButton" onclick="RepeatLevel()">
+    <svg class="svg-icon" fill="none" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg"><g stroke="#ff342b" stroke-linecap="round" stroke-width="1.5"><path d="m3.33337 10.8333c0 3.6819 2.98477 6.6667 6.66663 6.6667 3.682 0 6.6667-2.9848 6.6667-6.6667 0-3.68188-2.9847-6.66664-6.6667-6.66664-1.29938 0-2.51191.37174-3.5371 1.01468"></path><path d="m7.69867 1.58163-1.44987 3.28435c-.18587.42104.00478.91303.42582 1.0989l3.28438 1.44986"></path></g></svg>
+    <span class="lable">Reset</span>
+  </button>
+  <div id="MainDiv"> 
+    <table id="tableID">
+      <tr>
+        <th class="cell" id="icon3Match"><section id="icon3MatchIMG"></section></th>
+        <th class="cell" id="icon10Match"><section id="icon10MatchIMG"></section></th>
+        <th class="cell" id="icon4"><section id="icon4IMG"></section></th>
+        <th class="cell" id="icon8"><section id="icon8IMG"></section></th>
+        <th class="cell" id="icon17Match"><section id="icon17MatchIMG"></section></th>
+        <th class="cell" id="icon18Match"><section id="icon18MatchIMG"></section></th>
+        <th class="cell" id="icon21"><section id="icon21IMG"></section></th>
+        <th class="cell" id="icon21Match"><section id="icon21MatchIMG"></section></th>
+    
+      </tr>
+      <tr>
+        <th class="cell" id="icon2"><section id="icon2IMG"></section></th>
+        <th class="cell" id="icon1Match"><section id="icon1MatchIMG"></section></th>
+        <th class="cell" id="icon8Match"><section id="icon8MatchIMG"></section></th>
+        <th class="cell" id="icon6"><section id="icon6IMG"></section></th>
+        <th class="cell" id="icon19Match"><section id="icon19MatchIMG"></section></th>
+        <th class="cell" id="icon20Match"><section id="icon20MatchIMG"></section></th>
+        <th class="cell" id="icon22"><section id="icon22IMG"></section></th>
+        <th class="cell" id="icon22Match"><section id="icon22MatchIMG"></section></th>
+      </tr>
+      <tr>
+        <th class="cell" id="icon6Match"><section id="icon6MatchIMG"></section></th>
+        <th class="cell" id="icon2Match"><section id="icon2MatchIMG"></section></th>
+        <th class="cell" id="icon5"><section id="icon5IMG"></section></th>
+        <th class="cell" id="icon10"><section id="icon10IMG"></section></th>
+        <th class="cell" id="icon19"><section id="icon19IMG"></section></th>
+        <th class="cell" id="icon20"><section id="icon20IMG"></section></th>
+        <th class="cell" id="icon23"><section id="icon23IMG"></section></th>
+        <th class="cell" id="icon23Match"><section id="icon23MatchIMG"></section></th>
+    
+      </tr>
+      <tr>
+        <th class="cell" id="icon4Match"><section id="icon4MatchIMG"></section></th>
+        <th class="cell" id="icon5Match"><section id="icon5MatchIMG"></section></th>
+        <th class="cell" id="icon1"><section id="icon1IMG"></section></th>
+        <th class="cell" id="icon3"><section id="icon3IMG"></section></th>
+        <th class="cell" id="icon12"><section id="icon12IMG"></section></th>
+        <th class="cell" id="icon18"><section id="icon18IMG"></section></th>
+        <th class="cell" id="icon24"><section id="icon24IMG"></section></th>
+        <th class="cell" id="icon24Match"><section id="icon24MatchIMG"></section></th>
+      </tr>
+      <tr>
+        <th class="cell" id="icon11Match"><section id="icon11MatchIMG"></section></th>
+        <th class="cell" id="icon12Match"><section id="icon12MatchIMG"></section></th>
+        <th class="cell" id="icon13"><section id="icon13IMG"></section></th>
+        <th class="cell" id="icon11"><section id="icon11IMG"></section></th>
+        <th class="cell" id="icon13Match"><section id="icon13MatchIMG"></section></th>
+        <th class="cell" id="icon17"><section id="icon17IMG"></section></th>
+        <th class="cell" id="icon25"><section id="icon25IMG"></section></th>
+        <th class="cell" id="icon25Match"><section id="icon25MatchIMG"></section></th>
+      </tr>
+      <tr>
+        <th class="cell" id="icon14Match"><section id="icon14MatchIMG"></section></th>
+        <th class="cell" id="icon15Match"><section id="icon15MatchIMG"></section></th>
+        <th class="cell" id="icon14"><section id="icon14IMG"></section></th>
+        <th class="cell" id="icon15"><section id="icon15IMG"></section></th>
+        <th class="cell" id="icon16Match"><section id="icon16MatchIMG"></section></th>
+        <th class="cell" id="icon16"><section id="icon16IMG"></section></th>
+        <th class="cell" id="icon26"><section id="icon26IMG"></section></th>
+        <th class="cell" id="icon26Match"><section id="icon26MatchIMG"></section></th>
+      </tr>
+      <tr>
+        <th class="cell" id="icon27Match"><section id="icon27MatchIMG"></section></th>
+        <th class="cell" id="icon28Match"><section id="icon28MatchIMG"></section></th>
+        <th class="cell" id="icon27"><section id="icon27IMG"></section></th>
+        <th class="cell" id="icon15"><section id="icon15IMG"></section></th>
+        <th class="cell" id="icon29Match"><section id="icon29MatchIMG"></section></th>
+        <th class="cell" id="icon29"><section id="icon29IMG"></section></th>
+        <th class="cell" id="icon30"><section id="icon30IMG"></section></th>
+        <th class="cell" id="icon30Match"><section id="icon30MatchIMG"></section></th>
+      </tr>
+      <tr>
+        <th class="cell" id="icon31Match"><section id="icon31MatchIMG"></section></th>
+        <th class="cell" id="icon32Match"><section id="icon32MatchIMG"></section></th>
+        <th class="cell" id="icon31"><section id="icon31IMG"></section></th>
+        <th class="cell" id="icon32"><section id="icon32IMG"></section></th>
+        <th class="cell" id="icon33Match"><section id="icon33MatchIMG"></section></th>
+        <th class="cell" id="icon33"><section id="icon33IMG"></section></th>
+        <th class="cell" id="icon34"><section id="icon34IMG"></section></th>
+        <th class="cell" id="icon34Match"><section id="icon34MatchIMG"></section></th>
+      </tr>
+    </table>
+    <div id="HintDiv">
+      <button class="HintBtn" onclick="ShowMeHints()"></button>
+      </div>
+    </div>
+
+
+
 </body>
 </html>
