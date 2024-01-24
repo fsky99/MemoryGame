@@ -95,7 +95,7 @@ function RepeatLevel() {
   window.location.reload()
 }
 function GoBackHome() {
-  window.location.href = 'index.html'
+  window.location.href = '../index.html'
 }
 function ShowMeHints() {
   let icon1Exist = true

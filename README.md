@@ -120,7 +120,7 @@ setTimeout(function ShowHints() {
 
 ---
 
-### future plans:
+### Future plans:
 
 - [ ] Have more levels 10x10 and 12x12.
 - [ ] Have more categories for each level.
