@@ -83,15 +83,15 @@ let icon20MatchIMG = document.getElementById('icon20MatchIMG')
 
 function CheckWin() {
   if (Win == 0) {
-    winner.innerHTML = '<h1>YOU WON !!!! :)</h1>'
     clearInterval(interval)
+    winner.innerHTML = '<h1>YOU WON !!!! :)</h1>'
   }
 }
 function RepeatLevel() {
   window.location.reload()
 }
 function GoBackHome() {
-  window.location.href = 'PageOne.html'
+  window.location.href = 'index.html'
 }
 function ShowMeHints() {
   let icon1Exist = true
