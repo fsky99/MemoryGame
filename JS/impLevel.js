@@ -143,16 +143,17 @@ let icon34MatchIMG = document.getElementById('icon34MatchIMG')
 
 function CheckWin() {
   if (Win == 0) {
+    clearInterval(interval)
+
     winner.innerHTML =
       '<h1>YOU WON THE IMPOSSIBLE LEVEL WOOOOOOOOOOW !!!! :)</h1>'
-    clearInterval(interval)
   }
 }
 function RepeatLevel() {
   window.location.reload()
 }
 function GoBackHome() {
-  window.location.href = 'PageOne.html'
+  window.location.href = 'index.html'
 }
 function ShowMeHints() {
   let icon1Exist = true
@@ -697,7 +698,7 @@ function ShowMeHints() {
 }
 
 function getTimer() {
-  let timer = localStorage.getItem('timer')
+  let timer = 120
   console.log(timer)
   time = timer
   interval = setInterval(function () {
@@ -712,7 +713,7 @@ function getTimer() {
         '<h1>Time!! Better luck next time :) </h1>'
     }
     time--
-  }, 1000)
+  }, 500)
 }
 getTimer()
 icon1.addEventListener('click', () => {
@@ -1207,7 +1208,7 @@ icon32.addEventListener('click', () => {
 
 icon33.addEventListener('click', () => {
   icon33IMG.innerHTML = '<img src="../Icons/impLevelIcon31.png">'
-  let icon3Interval = 0
+  let icon33Interval = 0
 
   icon33Interval = setInterval(() => {
     if (icon33MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon31.png">') {
@@ -1581,7 +1582,7 @@ icon24Match.addEventListener('click', () => {
 
   icon24MtachInterval = setInterval(() => {
     if (icon24IMG.innerHTML == '<img src="../Icons/impLevelIcon22.png">') {
-      icon24MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon2.png">'
+      icon24MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon22.png">'
       clearInterval(icon24MtachInterval)
       Win--
       CheckWin()
