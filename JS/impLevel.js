@@ -144,9 +144,7 @@ let icon34MatchIMG = document.getElementById('icon34MatchIMG')
 function CheckWin() {
   if (Win == 0) {
     clearInterval(interval)
-
-    winner.innerHTML =
-      '<h1>YOU WON THE IMPOSSIBLE LEVEL WOOOOOOOOOOW !!!! :)</h1>'
+    winner.innerHTML = '<h1>YOU WON WOOOW !</h1>'
   }
 }
 function RepeatLevel() {
@@ -698,7 +696,7 @@ function ShowMeHints() {
 }
 
 function getTimer() {
-  let timer = 120
+  let timer = 140
   console.log(timer)
   time = timer
   interval = setInterval(function () {
