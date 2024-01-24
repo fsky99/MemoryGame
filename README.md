@@ -8,13 +8,17 @@
 
 ### **_Description_**
 
-#### Memory Game is a game where we will have 4x4 boxes that has icons and the user have to remember the icons and match them, there would be 3 levels of diffculty where each level has a different timer, levels :
+#### Memory Game is a game where you will have 4x4 table that has icons and the you have to remember the icons and match them in a specific time frame, there would be 3 main levels of diffculty where each level has a different timer, including an 'impossible level' , timers options :
 
 - Easy: 60S
 - Mid: 40S
 - Hard: 20S
 
 ---
+
+### **_Game Link:_**
+
+## to be included\*
 
 ### **_Extra Levels Updates_**
 
@@ -47,9 +51,82 @@
 
 ## ![LevelTwoPage](levelTwo.png)
 
+##### Level Three 8x8 Page:
+
+## ![LevelTwoPage](levelThree.png)
+
 ##### Impossible level 8x8 Page:
 
 ## ![LevelImpPage](impLevel.png)
+
+### Technologies used
+
+- [x] VSCode (Editor for Writing the Code)
+- [x] HTML (Structure of the pages)
+- [x] CSS (Style of the pages)
+- [x] JavaScript (Functionality for the pages)
+- [x] WireFrame (Early map desgin of the game)
+- [x] Google Fonts (Fonts for the page)
+- [x] Trelllo (Managment for the work)
+- [x] Surge (Deployment of the game)
+
+---
+
+### What I have learned:
+
+- [x] Manage my work on trello.
+- [x] hwo to write code more efficiently.
+- [x] Deployment on Surge.
+- [x] writing the logic of fliping more than one card and havnig them stay if they match and disappear if they don't.
+
+---
+
+### What I am most proud of is the logic behind the card flipping and the event listeners for each icon:
+
+```
+  icon1IMG.innerHTML = '<img src="../Icons/icon1.png">'
+  let icon1Interval = 0
+  icon1Interval = setInterval(() => {
+    if (icon1MatchIMG.innerHTML == '<img src="../Icons/icon1.png">') {
+      icon1IMG.innerHTML = '<img src="../Icons/icon1.png">'
+      clearInterval(icon1Interval)
+      Win--
+      CheckWin()
+    } else {
+      icon1IMG.innerHTML = ''
+      clearInterval(icon1Interval)
+    }
+  }, 2000)
+
+```
+
+```
+setTimeout(function ShowHints() {
+    if (icon1IMG.innerHTML === '') {
+      icon1IMG.innerHTML = '<img src="../Icons/icon1.png">'
+      icon1Exist = false
+    }
+....
+  }, 100)
+
+ setTimeout(function deleteHints() {
+    if (!icon1Exist) {
+      icon1IMG.innerHTML = ''
+    }
+   .....
+
+  }, 500)
+```
+
+---
+
+### future plans:
+
+- [ ] Have more levels 10x10 and 12x12.
+- [ ] Have more categories for each level.
+- [ ] Have more pictures that are random and not fixed.
+
+---
 
 ### **_Credits_**
 

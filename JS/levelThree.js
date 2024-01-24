@@ -224,269 +224,269 @@ function ShowMeHints() {
 
   setTimeout(function ShowHints() {
     if (icon1IMG.innerHTML === '') {
-      icon1IMG.innerHTML = '<img src="../Icons/impLevelIcon1.png">'
+      icon1IMG.innerHTML = '<img src="../Icons/level3Icon1.png">'
       icon1Exist = false
     }
     if (icon2IMG.innerHTML === '') {
       icon2Exist = false
-      icon2IMG.innerHTML = '<img src="../Icons/impLevelIcon2.png">'
+      icon2IMG.innerHTML = '<img src="../Icons/level3Icon2.png">'
     }
     if (icon3IMG.innerHTML === '') {
-      icon3IMG.innerHTML = '<img src="../Icons/impLevelIcon3.png">'
+      icon3IMG.innerHTML = '<img src="../Icons/level3Icon3.png">'
       icon3Exist = false
     }
 
     if (icon4IMG.innerHTML === '') {
-      icon4IMG.innerHTML = '<img src="../Icons/impLevelIcon4.png">'
+      icon4IMG.innerHTML = '<img src="../Icons/level3Icon4.png">'
       icon4Exist = false
     }
     if (icon5IMG.innerHTML === '') {
-      icon5IMG.innerHTML = '<img src="../Icons/impLevelIcon5.png">'
+      icon5IMG.innerHTML = '<img src="../Icons/level3Icon5.png">'
       icon5Exist = false
     }
     if (icon6IMG.innerHTML === '') {
-      icon6IMG.innerHTML = '<img src="../Icons/impLevelIcon6.png">'
+      icon6IMG.innerHTML = '<img src="../Icons/level3Icon6.png">'
       icon6Exist = false
     }
 
     if (icon8IMG.innerHTML === '') {
-      icon8IMG.innerHTML = '<img src="../Icons/impLevelIcon7.png">'
+      icon8IMG.innerHTML = '<img src="../Icons/level3Icon7.png">'
       icon8Exist = false
     }
     if (icon10IMG.innerHTML === '') {
-      icon10IMG.innerHTML = '<img src="../Icons/impLevelIcon8.png">'
+      icon10IMG.innerHTML = '<img src="../Icons/level3Icon8.png">'
       icon10Exist = false
     }
     if (icon11IMG.innerHTML === '') {
-      icon11IMG.innerHTML = '<img src="../Icons/impLevelIcon9.png">'
+      icon11IMG.innerHTML = '<img src="../Icons/level3Icon9.png">'
       icon11Exist = false
     }
     if (icon12IMG.innerHTML === '') {
-      icon12IMG.innerHTML = '<img src="../Icons/impLevelIcon10.png">'
+      icon12IMG.innerHTML = '<img src="../Icons/level3Icon10.png">'
       icon12Exist = false
     }
     if (icon13IMG.innerHTML === '') {
-      icon13IMG.innerHTML = '<img src="../Icons/impLevelIcon11.png">'
+      icon13IMG.innerHTML = '<img src="../Icons/level3Icon11.png">'
       icon13Exist = false
     }
     if (icon14IMG.innerHTML === '') {
-      icon14IMG.innerHTML = '<img src="../Icons/impLevelIcon12.png">'
+      icon14IMG.innerHTML = '<img src="../Icons/level3Icon12.png">'
       icon14Exist = false
     }
     if (icon15IMG.innerHTML === '') {
-      icon15IMG.innerHTML = '<img src="../Icons/impLevelIcon13.png">'
+      icon15IMG.innerHTML = '<img src="../Icons/level3Icon13.png">'
       icon15Exist = false
     }
     if (icon16IMG.innerHTML === '') {
-      icon16IMG.innerHTML = '<img src="../Icons/impLevelIcon14.png">'
+      icon16IMG.innerHTML = '<img src="../Icons/level3Icon14.png">'
       icon16Exist = false
     }
     if (icon17IMG.innerHTML === '') {
-      icon17IMG.innerHTML = '<img src="../Icons/impLevelIcon15.png">'
+      icon17IMG.innerHTML = '<img src="../Icons/level3Icon15.png">'
       icon17Exist = false
     }
     if (icon18IMG.innerHTML === '') {
-      icon18IMG.innerHTML = '<img src="../Icons/impLevelIcon16.png">'
+      icon18IMG.innerHTML = '<img src="../Icons/level3Icon16.png">'
       icon18Exist = false
     }
     if (icon19IMG.innerHTML === '') {
-      icon19IMG.innerHTML = '<img src="../Icons/impLevelIcon17.png">'
+      icon19IMG.innerHTML = '<img src="../Icons/level3Icon17.png">'
       icon19Exist = false
     }
     if (icon20IMG.innerHTML === '') {
-      icon20IMG.innerHTML = '<img src="../Icons/impLevelIcon18.png">'
+      icon20IMG.innerHTML = '<img src="../Icons/level3Icon18.png">'
       icon20Exist = false
     }
 
     if (icon21IMG.innerHTML === '') {
-      icon21IMG.innerHTML = '<img src="../Icons/impLevelIcon19.png">'
+      icon21IMG.innerHTML = '<img src="../Icons/level3Icon19.png">'
       icon21Exist = false
     }
 
     if (icon22IMG.innerHTML === '') {
-      icon22IMG.innerHTML = '<img src="../Icons/impLevelIcon20.png">'
+      icon22IMG.innerHTML = '<img src="../Icons/level3Icon20.png">'
       icon22Exist = false
     }
     if (icon23IMG.innerHTML === '') {
-      icon23IMG.innerHTML = '<img src="../Icons/impLevelIcon21.png">'
+      icon23IMG.innerHTML = '<img src="../Icons/level3Icon21.png">'
       icon23Exist = false
     }
 
     if (icon24IMG.innerHTML === '') {
-      icon24IMG.innerHTML = '<img src="../Icons/impLevelIcon22.png">'
+      icon24IMG.innerHTML = '<img src="../Icons/level3Icon22.png">'
       icon24Exist = false
     }
     if (icon25IMG.innerHTML === '') {
-      icon25IMG.innerHTML = '<img src="../Icons/impLevelIcon23.png">'
+      icon25IMG.innerHTML = '<img src="../Icons/level3Icon23.png">'
       icon25Exist = false
     }
     if (icon26IMG.innerHTML === '') {
-      icon26IMG.innerHTML = '<img src="../Icons/impLevelIcon24.png">'
+      icon26IMG.innerHTML = '<img src="../Icons/level3Icon24.png">'
       icon26Exist = false
     }
     if (icon27IMG.innerHTML === '') {
-      icon27IMG.innerHTML = '<img src="../Icons/impLevelIcon25.png">'
+      icon27IMG.innerHTML = '<img src="../Icons/level3Icon25.png">'
       icon27Exist = false
     }
     if (icon28IMG.innerHTML === '') {
-      icon28IMG.innerHTML = '<img src="../Icons/impLevelIcon26.png">'
+      icon28IMG.innerHTML = '<img src="../Icons/level3Icon26.png">'
       icon28Exist = false
     }
     if (icon29IMG.innerHTML === '') {
-      icon29IMG.innerHTML = '<img src="../Icons/impLevelIcon27.png">'
+      icon29IMG.innerHTML = '<img src="../Icons/level3Icon27.png">'
       icon29Exist = false
     }
     if (icon30IMG.innerHTML === '') {
-      icon30IMG.innerHTML = '<img src="../Icons/impLevelIcon28.png">'
+      icon30IMG.innerHTML = '<img src="../Icons/level3Icon28.png">'
       icon30Exist = false
     }
     if (icon31IMG.innerHTML === '') {
-      icon31IMG.innerHTML = '<img src="../Icons/impLevelIcon29.png">'
+      icon31IMG.innerHTML = '<img src="../Icons/level3Icon29.png">'
       icon31Exist = false
     }
     if (icon32IMG.innerHTML === '') {
-      icon32IMG.innerHTML = '<img src="../Icons/impLevelIcon30.png">'
+      icon32IMG.innerHTML = '<img src="../Icons/level3Icon30.png">'
       icon32Exist = false
     }
     if (icon33IMG.innerHTML === '') {
-      icon33IMG.innerHTML = '<img src="../Icons/impLevelIcon31.png">'
+      icon33IMG.innerHTML = '<img src="../Icons/level3Icon31.png">'
       icon33Exist = false
     }
     if (icon34IMG.innerHTML === '') {
-      icon34IMG.innerHTML = '<img src="../Icons/impLevelIcon32.png">'
+      icon34IMG.innerHTML = '<img src="../Icons/level3Icon32.png">'
       icon34Exist = false
     }
 
     if (icon1MatchIMG.innerHTML === '') {
-      icon1MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon1.png">'
+      icon1MatchIMG.innerHTML = '<img src="../Icons/level3Icon1.png">'
       icon1MacthExist = false
     }
     if (icon2MatchIMG.innerHTML === '') {
-      icon2MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon2.png">'
+      icon2MatchIMG.innerHTML = '<img src="../Icons/level3Icon2.png">'
       icon2MacthExist = false
     }
 
     if (icon3MatchIMG.innerHTML === '') {
-      icon3MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon3.png">'
+      icon3MatchIMG.innerHTML = '<img src="../Icons/level3Icon3.png">'
       icon3MacthExist = false
     }
     if (icon4MatchIMG.innerHTML === '') {
-      icon4MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon4.png">'
+      icon4MatchIMG.innerHTML = '<img src="../Icons/level3Icon4.png">'
       icon4MacthExist = false
     }
     if (icon5MatchIMG.innerHTML === '') {
-      icon5MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon5.png">'
+      icon5MatchIMG.innerHTML = '<img src="../Icons/level3Icon5.png">'
       icon5MacthExist = false
     }
     if (icon6MatchIMG.innerHTML === '') {
-      icon6MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon6.png">'
+      icon6MatchIMG.innerHTML = '<img src="../Icons/level3Icon6.png">'
       icon6MacthExist = false
     }
     if (icon8MatchIMG.innerHTML === '') {
-      icon8MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon7.png">'
+      icon8MatchIMG.innerHTML = '<img src="../Icons/level3Icon7.png">'
       icon8MacthExist = false
     }
     if (icon10MatchIMG.innerHTML === '') {
-      icon10MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon8.png">'
+      icon10MatchIMG.innerHTML = '<img src="../Icons/level3Icon8.png">'
       icon10MacthExist = false
     }
     if (icon11MatchIMG.innerHTML === '') {
-      icon11MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon9.png">'
+      icon11MatchIMG.innerHTML = '<img src="../Icons/level3Icon9.png">'
       icon11MacthExist = false
     }
     if (icon12MatchIMG.innerHTML === '') {
-      icon12MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon10.png">'
+      icon12MatchIMG.innerHTML = '<img src="../Icons/level3Icon10.png">'
       icon12MacthExist = false
     }
     if (icon13MatchIMG.innerHTML === '') {
-      icon13MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon11.png">'
+      icon13MatchIMG.innerHTML = '<img src="../Icons/level3Icon11.png">'
       icon13MacthExist = false
     }
     if (icon14MatchIMG.innerHTML === '') {
-      icon14MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon12.png">'
+      icon14MatchIMG.innerHTML = '<img src="../Icons/level3Icon12.png">'
       icon14MacthExist = false
     }
 
     if (icon15MatchIMG.innerHTML === '') {
-      icon15MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon13.png">'
+      icon15MatchIMG.innerHTML = '<img src="../Icons/level3Icon13.png">'
       icon15MacthExist = false
     }
     if (icon16MatchIMG.innerHTML === '') {
-      icon16MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon14.png">'
+      icon16MatchIMG.innerHTML = '<img src="../Icons/level3Icon14.png">'
       icon16MacthExist = false
     }
     if (icon17MatchIMG.innerHTML === '') {
-      icon17MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon15.png">'
+      icon17MatchIMG.innerHTML = '<img src="../Icons/level3Icon15.png">'
       icon17MacthExist = false
     }
     if (icon18MatchIMG.innerHTML === '') {
-      icon18MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon16.png">'
+      icon18MatchIMG.innerHTML = '<img src="../Icons/level3Icon16.png">'
       icon18MacthExist = false
     }
     if (icon19MatchIMG.innerHTML === '') {
-      icon19MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon17.png">'
+      icon19MatchIMG.innerHTML = '<img src="../Icons/level3Icon17.png">'
       icon19MacthExist = false
     }
     if (icon20MatchIMG.innerHTML === '') {
-      icon20MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon18.png">'
+      icon20MatchIMG.innerHTML = '<img src="../Icons/level3Icon18.png">'
       icon20MacthExist = false
     }
     if (icon21MatchIMG.innerHTML === '') {
-      icon21MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon19.png">'
+      icon21MatchIMG.innerHTML = '<img src="../Icons/level3Icon19.png">'
       icon21MacthExist = false
     }
     if (icon22MatchIMG.innerHTML === '') {
-      icon22MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon20.png">'
+      icon22MatchIMG.innerHTML = '<img src="../Icons/level3Icon20.png">'
       icon22MacthExist = false
     }
 
     if (icon23MatchIMG.innerHTML === '') {
-      icon23MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon21.png">'
+      icon23MatchIMG.innerHTML = '<img src="../Icons/level3Icon21.png">'
       icon23MacthExist = false
     }
     if (icon24MatchIMG.innerHTML === '') {
-      icon24MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon22.png">'
+      icon24MatchIMG.innerHTML = '<img src="../Icons/level3Icon22.png">'
       icon24MacthExist = false
     }
     if (icon25MatchIMG.innerHTML === '') {
-      icon25MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon23.png">'
+      icon25MatchIMG.innerHTML = '<img src="../Icons/level3Icon23.png">'
       icon25MacthExist = false
     }
     if (icon26MatchIMG.innerHTML === '') {
-      icon26MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon24.png">'
+      icon26MatchIMG.innerHTML = '<img src="../Icons/level3Icon24.png">'
       icon26MacthExist = false
     }
     if (icon27MatchIMG.innerHTML === '') {
-      icon27MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon25.png">'
+      icon27MatchIMG.innerHTML = '<img src="../Icons/level3Icon25.png">'
       icon27MacthExist = false
     }
 
     if (icon28MatchIMG.innerHTML === '') {
-      icon28MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon26.png">'
+      icon28MatchIMG.innerHTML = '<img src="../Icons/level3Icon26.png">'
       icon28MacthExist = false
     }
     if (icon29MatchIMG.innerHTML === '') {
-      icon29MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon27.png">'
+      icon29MatchIMG.innerHTML = '<img src="../Icons/level3Icon27.png">'
       icon29MacthExist = false
     }
     if (icon30MatchIMG.innerHTML === '') {
-      icon30MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon28.png">'
+      icon30MatchIMG.innerHTML = '<img src="../Icons/level3Icon28.png">'
       icon30MacthExist = false
     }
     if (icon31MatchIMG.innerHTML === '') {
-      icon31MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon29.png">'
+      icon31MatchIMG.innerHTML = '<img src="../Icons/level3Icon29.png">'
       icon31MacthExist = false
     }
     if (icon32MatchIMG.innerHTML === '') {
-      icon32MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon30.png">'
+      icon32MatchIMG.innerHTML = '<img src="../Icons/level3Icon30.png">'
       icon32MacthExist = false
     }
     if (icon33MatchIMG.innerHTML === '') {
-      icon33MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon31.png">'
+      icon33MatchIMG.innerHTML = '<img src="../Icons/level3Icon31.png">'
       icon33MacthExist = false
     }
     if (icon34MatchIMG.innerHTML === '') {
-      icon34MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon32.png">'
+      icon34MatchIMG.innerHTML = '<img src="../Icons/level3Icon32.png">'
       icon34MacthExist = false
     }
   }, 100)
@@ -696,7 +696,7 @@ function ShowMeHints() {
 }
 
 function getTimer() {
-  let timer = 120
+  let timer = 140
   time = timer
   interval = setInterval(function () {
     document.getElementById('timerDiv').innerHTML =
@@ -710,15 +710,15 @@ function getTimer() {
         '<h1>Time!! Better luck next time :) </h1>'
     }
     time--
-  }, 500)
+  }, 1000)
 }
 getTimer()
 icon1.addEventListener('click', () => {
-  icon1IMG.innerHTML = '<img src="../Icons/impLevelIcon1.png">'
+  icon1IMG.innerHTML = '<img src="../Icons/level3Icon1.png">'
   let icon1Interval = 0
   icon1Interval = setInterval(() => {
-    if (icon1MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon1.png">') {
-      icon1IMG.innerHTML = '<img src="../Icons/impLevelIcon1.png">'
+    if (icon1MatchIMG.innerHTML == '<img src="../Icons/level3Icon1.png">') {
+      icon1IMG.innerHTML = '<img src="../Icons/level3Icon1.png">'
       clearInterval(icon1Interval)
       Win--
       CheckWin()
@@ -729,11 +729,11 @@ icon1.addEventListener('click', () => {
   }, 2000)
 })
 icon2.addEventListener('click', () => {
-  icon2IMG.innerHTML = '<img src="../Icons/impLevelIcon2.png">'
+  icon2IMG.innerHTML = '<img src="../Icons/level3Icon2.png">'
   let icon2Interval = 0
   icon2Interval = setInterval(() => {
-    if (icon2MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon2.png">') {
-      icon2IMG.innerHTML = '<img src="../Icons/impLevelIcon2.png">'
+    if (icon2MatchIMG.innerHTML == '<img src="../Icons/level3Icon2.png">') {
+      icon2IMG.innerHTML = '<img src="../Icons/level3Icon2.png">'
       clearInterval(icon2Interval)
       Win--
       CheckWin()
@@ -744,12 +744,12 @@ icon2.addEventListener('click', () => {
   }, 2000)
 })
 icon3.addEventListener('click', () => {
-  icon3IMG.innerHTML = '<img src="../Icons/impLevelIcon3.png">'
+  icon3IMG.innerHTML = '<img src="../Icons/level3Icon3.png">'
   let icon3Interval = 0
 
   icon3Interval = setInterval(() => {
-    if (icon3MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon3.png">') {
-      icon3IMG.innerHTML = '<img src="../Icons/impLevelIcon3.png">'
+    if (icon3MatchIMG.innerHTML == '<img src="../Icons/level3Icon3.png">') {
+      icon3IMG.innerHTML = '<img src="../Icons/level3Icon3.png">'
       clearInterval(icon3Interval)
       Win--
       CheckWin()
@@ -760,12 +760,12 @@ icon3.addEventListener('click', () => {
   }, 2000)
 })
 icon4.addEventListener('click', () => {
-  icon4IMG.innerHTML = '<img src="../Icons/impLevelIcon4.png">'
+  icon4IMG.innerHTML = '<img src="../Icons/level3Icon4.png">'
   let icon4Interval = 0
 
   icon4Interval = setInterval(() => {
-    if (icon4MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon4.png">') {
-      icon4IMG.innerHTML = '<img src="../Icons/impLevelIcon4.png">'
+    if (icon4MatchIMG.innerHTML == '<img src="../Icons/level3Icon4.png">') {
+      icon4IMG.innerHTML = '<img src="../Icons/level3Icon4.png">'
       clearInterval(icon4Interval)
       Win--
       CheckWin()
@@ -776,12 +776,12 @@ icon4.addEventListener('click', () => {
   }, 2000)
 })
 icon5.addEventListener('click', () => {
-  icon5IMG.innerHTML = '<img src="../Icons/impLevelIcon5.png">'
+  icon5IMG.innerHTML = '<img src="../Icons/level3Icon5.png">'
   let icon5Interval = 0
 
   icon5Interval = setInterval(() => {
-    if (icon5MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon5.png">') {
-      icon5IMG.innerHTML = '<img src="../Icons/impLevelIcon5.png">'
+    if (icon5MatchIMG.innerHTML == '<img src="../Icons/level3Icon5.png">') {
+      icon5IMG.innerHTML = '<img src="../Icons/level3Icon5.png">'
       clearInterval(icon5Interval)
       Win--
       CheckWin()
@@ -792,12 +792,12 @@ icon5.addEventListener('click', () => {
   }, 2000)
 })
 icon6.addEventListener('click', () => {
-  icon6IMG.innerHTML = '<img src="../Icons/impLevelIcon6.png">'
+  icon6IMG.innerHTML = '<img src="../Icons/level3Icon6.png">'
   let icon6Interval = 0
 
   icon6Interval = setInterval(() => {
-    if (icon6MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon6.png">') {
-      icon6IMG.innerHTML = '<img src="../Icons/impLevelIcon6.png">'
+    if (icon6MatchIMG.innerHTML == '<img src="../Icons/level3Icon6.png">') {
+      icon6IMG.innerHTML = '<img src="../Icons/level3Icon6.png">'
       clearInterval(icon6Interval)
       Win--
       CheckWin()
@@ -808,12 +808,12 @@ icon6.addEventListener('click', () => {
   }, 2000)
 })
 icon8.addEventListener('click', () => {
-  icon8IMG.innerHTML = '<img src="../Icons/impLevelIcon7.png">'
+  icon8IMG.innerHTML = '<img src="../Icons/level3Icon7.png">'
   let icon8Interval = 0
 
   icon8Interval = setInterval(() => {
-    if (icon8MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon7.png">') {
-      icon8IMG.innerHTML = '<img src="../Icons/impLevelIcon7.png">'
+    if (icon8MatchIMG.innerHTML == '<img src="../Icons/level3Icon7.png">') {
+      icon8IMG.innerHTML = '<img src="../Icons/level3Icon7.png">'
       clearInterval(icon8Interval)
       Win--
       CheckWin()
@@ -824,12 +824,12 @@ icon8.addEventListener('click', () => {
   }, 2000)
 })
 icon10.addEventListener('click', () => {
-  icon10IMG.innerHTML = '<img src="../Icons/impLevelIcon8.png">'
+  icon10IMG.innerHTML = '<img src="../Icons/level3Icon8.png">'
   let icon10Interval = 0
 
   icon10Interval = setInterval(() => {
-    if (icon10MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon8.png">') {
-      icon10IMG.innerHTML = '<img src="../Icons/impLevelIcon8.png">'
+    if (icon10MatchIMG.innerHTML == '<img src="../Icons/level3Icon8.png">') {
+      icon10IMG.innerHTML = '<img src="../Icons/level3Icon8.png">'
       clearInterval(icon10Interval)
       Win--
       CheckWin()
@@ -840,12 +840,12 @@ icon10.addEventListener('click', () => {
   }, 2000)
 })
 icon11.addEventListener('click', () => {
-  icon11IMG.innerHTML = '<img src="../Icons/impLevelIcon9.png">'
+  icon11IMG.innerHTML = '<img src="../Icons/level3Icon9.png">'
   let icon11Interval = 0
 
   icon11Interval = setInterval(() => {
-    if (icon11MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon9.png">') {
-      icon11IMG.innerHTML = '<img src="../Icons/impLevelIcon9.png">'
+    if (icon11MatchIMG.innerHTML == '<img src="../Icons/level3Icon9.png">') {
+      icon11IMG.innerHTML = '<img src="../Icons/level3Icon9.png">'
       clearInterval(icon11Interval)
       Win--
       CheckWin()
@@ -856,12 +856,12 @@ icon11.addEventListener('click', () => {
   }, 2000)
 })
 icon12.addEventListener('click', () => {
-  icon12IMG.innerHTML = '<img src="../Icons/impLevelIcon10.png">'
+  icon12IMG.innerHTML = '<img src="../Icons/level3Icon10.png">'
   let icon12Interval = 0
 
   icon12Interval = setInterval(() => {
-    if (icon12MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon10.png">') {
-      icon12IMG.innerHTML = '<img src="../Icons/impLevelIcon10.png">'
+    if (icon12MatchIMG.innerHTML == '<img src="../Icons/level3Icon10.png">') {
+      icon12IMG.innerHTML = '<img src="../Icons/level3Icon10.png">'
       clearInterval(icon12Interval)
       Win--
       CheckWin()
@@ -872,12 +872,12 @@ icon12.addEventListener('click', () => {
   }, 2000)
 })
 icon13.addEventListener('click', () => {
-  icon13IMG.innerHTML = '<img src="../Icons/impLevelIcon11.png">'
+  icon13IMG.innerHTML = '<img src="../Icons/level3Icon11.png">'
   let icon13Interval = 0
 
   icon13Interval = setInterval(() => {
-    if (icon13MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon11.png">') {
-      icon13IMG.innerHTML = '<img src="../Icons/impLevelIcon11.png">'
+    if (icon13MatchIMG.innerHTML == '<img src="../Icons/level3Icon11.png">') {
+      icon13IMG.innerHTML = '<img src="../Icons/level3Icon11.png">'
       clearInterval(icon13Interval)
       Win--
       CheckWin()
@@ -888,12 +888,12 @@ icon13.addEventListener('click', () => {
   }, 2000)
 })
 icon14.addEventListener('click', () => {
-  icon14IMG.innerHTML = '<img src="../Icons/impLevelIcon12.png">'
+  icon14IMG.innerHTML = '<img src="../Icons/level3Icon12.png">'
   let icon14Interval = 0
 
   icon14Interval = setInterval(() => {
-    if (icon14MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon12.png">') {
-      icon14IMG.innerHTML = '<img src="../Icons/impLevelIcon12.png">'
+    if (icon14MatchIMG.innerHTML == '<img src="../Icons/level3Icon12.png">') {
+      icon14IMG.innerHTML = '<img src="../Icons/level3Icon12.png">'
       clearInterval(icon14Interval)
       Win--
       CheckWin()
@@ -904,12 +904,12 @@ icon14.addEventListener('click', () => {
   }, 2000)
 })
 icon15.addEventListener('click', () => {
-  icon15IMG.innerHTML = '<img src="../Icons/impLevelIcon13.png">'
+  icon15IMG.innerHTML = '<img src="../Icons/level3Icon13.png">'
   let icon15Interval = 0
 
   icon15Interval = setInterval(() => {
-    if (icon15MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon13.png">') {
-      icon15IMG.innerHTML = '<img src="../Icons/impLevelIcon13.png">'
+    if (icon15MatchIMG.innerHTML == '<img src="../Icons/level3Icon13.png">') {
+      icon15IMG.innerHTML = '<img src="../Icons/level3Icon13.png">'
       clearInterval(icon15Interval)
       Win--
       CheckWin()
@@ -920,12 +920,12 @@ icon15.addEventListener('click', () => {
   }, 2000)
 })
 icon16.addEventListener('click', () => {
-  icon16IMG.innerHTML = '<img src="../Icons/impLevelIcon14.png">'
+  icon16IMG.innerHTML = '<img src="../Icons/level3Icon14.png">'
   let icon16Interval = 0
 
   icon16Interval = setInterval(() => {
-    if (icon16MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon14.png">') {
-      icon16IMG.innerHTML = '<img src="../Icons/impLevelIcon14.png">'
+    if (icon16MatchIMG.innerHTML == '<img src="../Icons/level3Icon14.png">') {
+      icon16IMG.innerHTML = '<img src="../Icons/level3Icon14.png">'
       clearInterval(icon16Interval)
       Win--
       CheckWin()
@@ -936,12 +936,12 @@ icon16.addEventListener('click', () => {
   }, 2000)
 })
 icon17.addEventListener('click', () => {
-  icon17IMG.innerHTML = '<img src="../Icons/impLevelIcon15.png">'
+  icon17IMG.innerHTML = '<img src="../Icons/level3Icon15.png">'
   let icon17Interval = 0
 
   icon17Interval = setInterval(() => {
-    if (icon17MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon15.png">') {
-      icon17IMG.innerHTML = '<img src="../Icons/impLevelIcon15.png">'
+    if (icon17MatchIMG.innerHTML == '<img src="../Icons/level3Icon15.png">') {
+      icon17IMG.innerHTML = '<img src="../Icons/level3Icon15.png">'
       clearInterval(icon17Interval)
       Win--
       CheckWin()
@@ -952,12 +952,12 @@ icon17.addEventListener('click', () => {
   }, 2000)
 })
 icon18.addEventListener('click', () => {
-  icon18IMG.innerHTML = '<img src="../Icons/impLevelIcon16.png">'
+  icon18IMG.innerHTML = '<img src="../Icons/level3Icon16.png">'
   let icon18Interval = 0
 
   icon18Interval = setInterval(() => {
-    if (icon18MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon16.png">') {
-      icon18IMG.innerHTML = '<img src="../Icons/impLevelIcon16.png">'
+    if (icon18MatchIMG.innerHTML == '<img src="../Icons/level3Icon16.png">') {
+      icon18IMG.innerHTML = '<img src="../Icons/level3Icon16.png">'
       clearInterval(icon18Interval)
       Win--
       CheckWin()
@@ -968,12 +968,12 @@ icon18.addEventListener('click', () => {
   }, 2000)
 })
 icon19.addEventListener('click', () => {
-  icon19IMG.innerHTML = '<img src="../Icons/impLevelIcon17.png">'
+  icon19IMG.innerHTML = '<img src="../Icons/level3Icon17.png">'
   let icon19Interval = 0
 
   icon19Interval = setInterval(() => {
-    if (icon19MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon17.png">') {
-      icon19IMG.innerHTML = '<img src="../Icons/impLevelIcon17.png">'
+    if (icon19MatchIMG.innerHTML == '<img src="../Icons/level3Icon17.png">') {
+      icon19IMG.innerHTML = '<img src="../Icons/level3Icon17.png">'
       clearInterval(icon19Interval)
       Win--
       CheckWin()
@@ -984,12 +984,12 @@ icon19.addEventListener('click', () => {
   }, 2000)
 })
 icon20.addEventListener('click', () => {
-  icon20IMG.innerHTML = '<img src="../Icons/impLevelIcon18.png">'
+  icon20IMG.innerHTML = '<img src="../Icons/level3Icon18.png">'
   let icon20Interval = 0
 
   icon20Interval = setInterval(() => {
-    if (icon20MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon18.png">') {
-      icon20IMG.innerHTML = '<img src="../Icons/impLevelIcon18.png">'
+    if (icon20MatchIMG.innerHTML == '<img src="../Icons/level3Icon18.png">') {
+      icon20IMG.innerHTML = '<img src="../Icons/level3Icon18.png">'
       clearInterval(icon20Interval)
       Win--
       CheckWin()
@@ -1000,12 +1000,12 @@ icon20.addEventListener('click', () => {
   }, 2000)
 })
 icon21.addEventListener('click', () => {
-  icon21IMG.innerHTML = '<img src="../Icons/impLevelIcon19.png">'
+  icon21IMG.innerHTML = '<img src="../Icons/level3Icon19.png">'
   let icon21Interval = 0
 
   icon21Interval = setInterval(() => {
-    if (icon21MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon19.png">') {
-      icon21IMG.innerHTML = '<img src="../Icons/impLevelIcon19.png">'
+    if (icon21MatchIMG.innerHTML == '<img src="../Icons/level3Icon19.png">') {
+      icon21IMG.innerHTML = '<img src="../Icons/level3Icon19.png">'
       clearInterval(icon21Interval)
       Win--
       CheckWin()
@@ -1017,12 +1017,12 @@ icon21.addEventListener('click', () => {
 })
 
 icon22.addEventListener('click', () => {
-  icon22IMG.innerHTML = '<img src="../Icons/impLevelIcon20.png">'
+  icon22IMG.innerHTML = '<img src="../Icons/level3Icon20.png">'
   let icon22Interval = 0
 
   icon22Interval = setInterval(() => {
-    if (icon22MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon20.png">') {
-      icon22IMG.innerHTML = '<img src="../Icons/impLevelIcon20.png">'
+    if (icon22MatchIMG.innerHTML == '<img src="../Icons/level3Icon20.png">') {
+      icon22IMG.innerHTML = '<img src="../Icons/level3Icon20.png">'
       clearInterval(icon22Interval)
       Win--
       CheckWin()
@@ -1034,12 +1034,12 @@ icon22.addEventListener('click', () => {
 })
 
 icon23.addEventListener('click', () => {
-  icon23IMG.innerHTML = '<img src="../Icons/impLevelIcon21.png">'
+  icon23IMG.innerHTML = '<img src="../Icons/level3Icon21.png">'
   let icon23Interval = 0
 
   icon23Interval = setInterval(() => {
-    if (icon23MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon21.png">') {
-      icon23IMG.innerHTML = '<img src="../Icons/impLevelIcon21.png">'
+    if (icon23MatchIMG.innerHTML == '<img src="../Icons/level3Icon21.png">') {
+      icon23IMG.innerHTML = '<img src="../Icons/level3Icon21.png">'
       clearInterval(icon23Interval)
       Win--
       CheckWin()
@@ -1051,12 +1051,12 @@ icon23.addEventListener('click', () => {
 })
 
 icon24.addEventListener('click', () => {
-  icon24IMG.innerHTML = '<img src="../Icons/impLevelIcon22.png">'
+  icon24IMG.innerHTML = '<img src="../Icons/level3Icon22.png">'
   let icon24Interval = 0
 
   icon24Interval = setInterval(() => {
-    if (icon24MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon22.png">') {
-      icon24IMG.innerHTML = '<img src="../Icons/impLevelIcon22.png">'
+    if (icon24MatchIMG.innerHTML == '<img src="../Icons/level3Icon22.png">') {
+      icon24IMG.innerHTML = '<img src="../Icons/level3Icon22.png">'
       clearInterval(icon24Interval)
       Win--
       CheckWin()
@@ -1068,12 +1068,12 @@ icon24.addEventListener('click', () => {
 })
 
 icon25.addEventListener('click', () => {
-  icon25IMG.innerHTML = '<img src="../Icons/impLevelIcon23.png">'
+  icon25IMG.innerHTML = '<img src="../Icons/level3Icon23.png">'
   let icon25Interval = 0
 
   icon25Interval = setInterval(() => {
-    if (icon25MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon23.png">') {
-      icon25IMG.innerHTML = '<img src="../Icons/impLevelIcon23.png">'
+    if (icon25MatchIMG.innerHTML == '<img src="../Icons/level3Icon23.png">') {
+      icon25IMG.innerHTML = '<img src="../Icons/level3Icon23.png">'
       clearInterval(icon25Interval)
       Win--
       CheckWin()
@@ -1085,12 +1085,12 @@ icon25.addEventListener('click', () => {
 })
 
 icon26.addEventListener('click', () => {
-  icon26IMG.innerHTML = '<img src="../Icons/impLevelIcon24.png">'
+  icon26IMG.innerHTML = '<img src="../Icons/level3Icon24.png">'
   let icon26Interval = 0
 
   icon26Interval = setInterval(() => {
-    if (icon26MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon24.png">') {
-      icon26IMG.innerHTML = '<img src="../Icons/impLevelIcon24.png">'
+    if (icon26MatchIMG.innerHTML == '<img src="../Icons/level3Icon24.png">') {
+      icon26IMG.innerHTML = '<img src="../Icons/level3Icon24.png">'
       clearInterval(icon26Interval)
       Win--
       CheckWin()
@@ -1102,12 +1102,12 @@ icon26.addEventListener('click', () => {
 })
 
 icon27.addEventListener('click', () => {
-  icon27IMG.innerHTML = '<img src="../Icons/impLevelIcon25.png">'
+  icon27IMG.innerHTML = '<img src="../Icons/level3Icon25.png">'
   let icon27Interval = 0
 
   icon27Interval = setInterval(() => {
-    if (icon27MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon25.png">') {
-      icon27IMG.innerHTML = '<img src="../Icons/impLevelIcon25.png">'
+    if (icon27MatchIMG.innerHTML == '<img src="../Icons/level3Icon25.png">') {
+      icon27IMG.innerHTML = '<img src="../Icons/level3Icon25.png">'
       clearInterval(icon27Interval)
       Win--
       CheckWin()
@@ -1119,12 +1119,12 @@ icon27.addEventListener('click', () => {
 })
 
 icon28.addEventListener('click', () => {
-  icon28IMG.innerHTML = '<img src="../Icons/impLevelIcon26.png">'
+  icon28IMG.innerHTML = '<img src="../Icons/level3Icon26.png">'
   let icon28Interval = 0
 
   icon28Interval = setInterval(() => {
-    if (icon28MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon26.png">') {
-      icon28IMG.innerHTML = '<img src="../Icons/impLevelIcon26.png">'
+    if (icon28MatchIMG.innerHTML == '<img src="../Icons/level3Icon26.png">') {
+      icon28IMG.innerHTML = '<img src="../Icons/level3Icon26.png">'
       clearInterval(icon28Interval)
       Win--
       CheckWin()
@@ -1136,12 +1136,12 @@ icon28.addEventListener('click', () => {
 })
 
 icon29.addEventListener('click', () => {
-  icon29IMG.innerHTML = '<img src="../Icons/impLevelIcon27.png">'
+  icon29IMG.innerHTML = '<img src="../Icons/level3Icon27.png">'
   let icon29Interval = 0
 
   icon29Interval = setInterval(() => {
-    if (icon29MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon27.png">') {
-      icon29IMG.innerHTML = '<img src="../Icons/impLevelIcon27.png">'
+    if (icon29MatchIMG.innerHTML == '<img src="../Icons/level3Icon27.png">') {
+      icon29IMG.innerHTML = '<img src="../Icons/level3Icon27.png">'
       clearInterval(icon29Interval)
       Win--
       CheckWin()
@@ -1153,12 +1153,12 @@ icon29.addEventListener('click', () => {
 })
 
 icon30.addEventListener('click', () => {
-  icon30IMG.innerHTML = '<img src="../Icons/impLevelIcon28.png">'
+  icon30IMG.innerHTML = '<img src="../Icons/level3Icon28.png">'
   let icon30Interval = 0
 
   icon30Interval = setInterval(() => {
-    if (icon30MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon28.png">') {
-      icon30IMG.innerHTML = '<img src="../Icons/impLevelIcon28.png">'
+    if (icon30MatchIMG.innerHTML == '<img src="../Icons/level3Icon28.png">') {
+      icon30IMG.innerHTML = '<img src="../Icons/level3Icon28.png">'
       clearInterval(icon30Interval)
       Win--
       CheckWin()
@@ -1170,12 +1170,12 @@ icon30.addEventListener('click', () => {
 })
 
 icon31.addEventListener('click', () => {
-  icon31IMG.innerHTML = '<img src="../Icons/impLevelIcon29.png">'
+  icon31IMG.innerHTML = '<img src="../Icons/level3Icon29.png">'
   let icon31Interval = 0
 
   icon31Interval = setInterval(() => {
-    if (icon31MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon29.png">') {
-      icon31IMG.innerHTML = '<img src="../Icons/impLevelIcon29.png">'
+    if (icon31MatchIMG.innerHTML == '<img src="../Icons/level3Icon29.png">') {
+      icon31IMG.innerHTML = '<img src="../Icons/level3Icon29.png">'
       clearInterval(icon31Interval)
       Win--
       CheckWin()
@@ -1187,12 +1187,12 @@ icon31.addEventListener('click', () => {
 })
 
 icon32.addEventListener('click', () => {
-  icon32IMG.innerHTML = '<img src="../Icons/impLevelIcon30.png">'
+  icon32IMG.innerHTML = '<img src="../Icons/level3Icon30.png">'
   let icon32Interval = 0
 
   icon32Interval = setInterval(() => {
-    if (icon32MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon30.png">') {
-      icon32IMG.innerHTML = '<img src="../Icons/impLevelIcon30.png">'
+    if (icon32MatchIMG.innerHTML == '<img src="../Icons/level3Icon30.png">') {
+      icon32IMG.innerHTML = '<img src="../Icons/level3Icon30.png">'
       clearInterval(icon32Interval)
       Win--
       CheckWin()
@@ -1204,12 +1204,12 @@ icon32.addEventListener('click', () => {
 })
 
 icon33.addEventListener('click', () => {
-  icon33IMG.innerHTML = '<img src="../Icons/impLevelIcon31.png">'
+  icon33IMG.innerHTML = '<img src="../Icons/level3Icon31.png">'
   let icon33Interval = 0
 
   icon33Interval = setInterval(() => {
-    if (icon33MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon31.png">') {
-      icon33IMG.innerHTML = '<img src="../Icons/impLevelIcon31.png">'
+    if (icon33MatchIMG.innerHTML == '<img src="../Icons/level3Icon31.png">') {
+      icon33IMG.innerHTML = '<img src="../Icons/level3Icon31.png">'
       clearInterval(icon33Interval)
       Win--
       CheckWin()
@@ -1221,12 +1221,12 @@ icon33.addEventListener('click', () => {
 })
 
 icon34.addEventListener('click', () => {
-  icon34IMG.innerHTML = '<img src="../Icons/impLevelIcon32.png">'
+  icon34IMG.innerHTML = '<img src="../Icons/level3Icon32.png">'
   let icon34Interval = 0
 
   icon34Interval = setInterval(() => {
-    if (icon34MatchIMG.innerHTML == '<img src="../Icons/impLevelIcon32.png">') {
-      icon34IMG.innerHTML = '<img src="../Icons/impLevelIcon32.png">'
+    if (icon34MatchIMG.innerHTML == '<img src="../Icons/level3Icon32.png">') {
+      icon34IMG.innerHTML = '<img src="../Icons/level3Icon32.png">'
       clearInterval(icon34Interval)
       Win--
       CheckWin()
@@ -1238,12 +1238,12 @@ icon34.addEventListener('click', () => {
 })
 
 icon1Match.addEventListener('click', () => {
-  icon1MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon1.png">'
+  icon1MatchIMG.innerHTML = '<img src="../Icons/level3Icon1.png">'
   let icon1MtachInterval = 0
 
   icon1MtachInterval = setInterval(() => {
-    if (icon1IMG.innerHTML == '<img src="../Icons/impLevelIcon1.png">') {
-      icon1MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon1.png">'
+    if (icon1IMG.innerHTML == '<img src="../Icons/level3Icon1.png">') {
+      icon1MatchIMG.innerHTML = '<img src="../Icons/level3Icon1.png">'
       clearInterval(icon1MtachInterval)
       Win--
       CheckWin()
@@ -1254,11 +1254,11 @@ icon1Match.addEventListener('click', () => {
   }, 2000)
 })
 icon2Match.addEventListener('click', () => {
-  icon2MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon2.png">'
+  icon2MatchIMG.innerHTML = '<img src="../Icons/level3Icon2.png">'
   let icon2MtachInterval = 0
   icon2MtachInterval = setInterval(() => {
-    if (icon2IMG.innerHTML == '<img src="../Icons/impLevelIcon2.png">') {
-      icon2MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon2.png">'
+    if (icon2IMG.innerHTML == '<img src="../Icons/level3Icon2.png">') {
+      icon2MatchIMG.innerHTML = '<img src="../Icons/level3Icon2.png">'
       clearInterval(icon2MtachInterval)
       Win--
       CheckWin()
@@ -1269,12 +1269,12 @@ icon2Match.addEventListener('click', () => {
   }, 2000)
 })
 icon3Match.addEventListener('click', () => {
-  icon3MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon3.png">'
+  icon3MatchIMG.innerHTML = '<img src="../Icons/level3Icon3.png">'
   let icon3MtachInterval = 0
 
   icon3MtachInterval = setInterval(() => {
-    if (icon3IMG.innerHTML == '<img src="../Icons/impLevelIcon3.png">') {
-      icon3MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon3.png">'
+    if (icon3IMG.innerHTML == '<img src="../Icons/level3Icon3.png">') {
+      icon3MatchIMG.innerHTML = '<img src="../Icons/level3Icon3.png">'
       clearInterval(icon3MtachInterval)
       Win--
       CheckWin()
@@ -1285,11 +1285,11 @@ icon3Match.addEventListener('click', () => {
   }, 2000)
 })
 icon4Match.addEventListener('click', () => {
-  icon4MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon4.png">'
+  icon4MatchIMG.innerHTML = '<img src="../Icons/level3Icon4.png">'
   let icon4MtachInterval = 0
   icon4MtachInterval = setInterval(() => {
-    if (icon4IMG.innerHTML == '<img src="../Icons/impLevelIcon4.png">') {
-      icon4MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon4.png">'
+    if (icon4IMG.innerHTML == '<img src="../Icons/level3Icon4.png">') {
+      icon4MatchIMG.innerHTML = '<img src="../Icons/level3Icon4.png">'
       clearInterval(icon4MtachInterval)
       Win--
       CheckWin()
@@ -1300,12 +1300,12 @@ icon4Match.addEventListener('click', () => {
   }, 2000)
 })
 icon5Match.addEventListener('click', () => {
-  icon5MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon5.png">'
+  icon5MatchIMG.innerHTML = '<img src="../Icons/level3Icon5.png">'
   let icon5MtachInterval = 0
 
   icon5MtachInterval = setInterval(() => {
-    if (icon5IMG.innerHTML == '<img src="../Icons/impLevelIcon5.png">') {
-      icon5MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon5.png">'
+    if (icon5IMG.innerHTML == '<img src="../Icons/level3Icon5.png">') {
+      icon5MatchIMG.innerHTML = '<img src="../Icons/level3Icon5.png">'
       clearInterval(icon5MtachInterval)
       Win--
       CheckWin()
@@ -1316,11 +1316,11 @@ icon5Match.addEventListener('click', () => {
   }, 2000)
 })
 icon6Match.addEventListener('click', () => {
-  icon6MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon6.png">'
+  icon6MatchIMG.innerHTML = '<img src="../Icons/level3Icon6.png">'
   let icon6MtachInterval = 0
   icon6MtachInterval = setInterval(() => {
-    if (icon6IMG.innerHTML == '<img src="../Icons/impLevelIcon6.png">') {
-      icon6MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon6.png">'
+    if (icon6IMG.innerHTML == '<img src="../Icons/level3Icon6.png">') {
+      icon6MatchIMG.innerHTML = '<img src="../Icons/level3Icon6.png">'
       clearInterval(icon6MtachInterval)
       Win--
       CheckWin()
@@ -1331,11 +1331,11 @@ icon6Match.addEventListener('click', () => {
   }, 2000)
 })
 icon8Match.addEventListener('click', () => {
-  icon8MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon7.png">'
+  icon8MatchIMG.innerHTML = '<img src="../Icons/level3Icon7.png">'
   let icon8MtachInterval = 0
   icon8MtachInterval = setInterval(() => {
-    if (icon8IMG.innerHTML == '<img src="../Icons/impLevelIcon7.png">') {
-      icon8MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon7.png">'
+    if (icon8IMG.innerHTML == '<img src="../Icons/level3Icon7.png">') {
+      icon8MatchIMG.innerHTML = '<img src="../Icons/level3Icon7.png">'
       clearInterval(icon8MtachInterval)
       Win--
       CheckWin()
@@ -1346,12 +1346,12 @@ icon8Match.addEventListener('click', () => {
   }, 2000)
 })
 icon10Match.addEventListener('click', () => {
-  icon10MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon8.png">'
+  icon10MatchIMG.innerHTML = '<img src="../Icons/level3Icon8.png">'
   let icon10MtachInterval = 0
 
   icon10MtachInterval = setInterval(() => {
-    if (icon10IMG.innerHTML == '<img src="../Icons/impLevelIcon8.png">') {
-      icon10MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon8.png">'
+    if (icon10IMG.innerHTML == '<img src="../Icons/level3Icon8.png">') {
+      icon10MatchIMG.innerHTML = '<img src="../Icons/level3Icon8.png">'
       clearInterval(icon10MtachInterval)
       Win--
       CheckWin()
@@ -1362,12 +1362,12 @@ icon10Match.addEventListener('click', () => {
   }, 2000)
 })
 icon11Match.addEventListener('click', () => {
-  icon11MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon9.png">'
+  icon11MatchIMG.innerHTML = '<img src="../Icons/level3Icon9.png">'
   let icon11MtachInterval = 0
 
   icon11MtachInterval = setInterval(() => {
-    if (icon11IMG.innerHTML == '<img src="../Icons/impLevelIcon9.png">') {
-      icon11MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon9.png">'
+    if (icon11IMG.innerHTML == '<img src="../Icons/level3Icon9.png">') {
+      icon11MatchIMG.innerHTML = '<img src="../Icons/level3Icon9.png">'
       clearInterval(icon11MtachInterval)
       Win--
       CheckWin()
@@ -1379,12 +1379,12 @@ icon11Match.addEventListener('click', () => {
 })
 
 icon12Match.addEventListener('click', () => {
-  icon12MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon10.png">'
+  icon12MatchIMG.innerHTML = '<img src="../Icons/level3Icon10.png">'
   let icon12MtachInterval = 0
 
   icon12MtachInterval = setInterval(() => {
-    if (icon12IMG.innerHTML == '<img src="../Icons/impLevelIcon10.png">') {
-      icon12MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon10.png">'
+    if (icon12IMG.innerHTML == '<img src="../Icons/level3Icon10.png">') {
+      icon12MatchIMG.innerHTML = '<img src="../Icons/level3Icon10.png">'
       clearInterval(icon12MtachInterval)
       Win--
       CheckWin()
@@ -1395,12 +1395,12 @@ icon12Match.addEventListener('click', () => {
   }, 2000)
 })
 icon13Match.addEventListener('click', () => {
-  icon13MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon11.png">'
+  icon13MatchIMG.innerHTML = '<img src="../Icons/level3Icon11.png">'
   let icon13MtachInterval = 0
 
   icon13MtachInterval = setInterval(() => {
-    if (icon13IMG.innerHTML == '<img src="../Icons/impLevelIcon11.png">') {
-      icon13MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon11.png">'
+    if (icon13IMG.innerHTML == '<img src="../Icons/level3Icon11.png">') {
+      icon13MatchIMG.innerHTML = '<img src="../Icons/level3Icon11.png">'
       clearInterval(icon13MtachInterval)
       Win--
       CheckWin()
@@ -1412,12 +1412,12 @@ icon13Match.addEventListener('click', () => {
 })
 
 icon14Match.addEventListener('click', () => {
-  icon14MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon12.png">'
+  icon14MatchIMG.innerHTML = '<img src="../Icons/level3Icon12.png">'
   let icon14MtachInterval = 0
 
   icon14MtachInterval = setInterval(() => {
-    if (icon14IMG.innerHTML == '<img src="../Icons/impLevelIcon12.png">') {
-      icon14MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon12.png">'
+    if (icon14IMG.innerHTML == '<img src="../Icons/level3Icon12.png">') {
+      icon14MatchIMG.innerHTML = '<img src="../Icons/level3Icon12.png">'
       clearInterval(icon14MtachInterval)
       Win--
       CheckWin()
@@ -1428,12 +1428,12 @@ icon14Match.addEventListener('click', () => {
   }, 2000)
 })
 icon15Match.addEventListener('click', () => {
-  icon15MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon13.png">'
+  icon15MatchIMG.innerHTML = '<img src="../Icons/level3Icon13.png">'
   let icon15MtachInterval = 0
 
   icon15MtachInterval = setInterval(() => {
-    if (icon15IMG.innerHTML == '<img src="../Icons/impLevelIcon13.png">') {
-      icon15MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon13.png">'
+    if (icon15IMG.innerHTML == '<img src="../Icons/level3Icon13.png">') {
+      icon15MatchIMG.innerHTML = '<img src="../Icons/level3Icon13.png">'
       clearInterval(icon15MtachInterval)
       Win--
       CheckWin()
@@ -1444,12 +1444,12 @@ icon15Match.addEventListener('click', () => {
   }, 2000)
 })
 icon16Match.addEventListener('click', () => {
-  icon16MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon14.png">'
+  icon16MatchIMG.innerHTML = '<img src="../Icons/level3Icon14.png">'
   let icon16MtachInterval = 0
 
   icon16MtachInterval = setInterval(() => {
-    if (icon16IMG.innerHTML == '<img src="../Icons/impLevelIcon14.png">') {
-      icon16MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon14.png">'
+    if (icon16IMG.innerHTML == '<img src="../Icons/level3Icon14.png">') {
+      icon16MatchIMG.innerHTML = '<img src="../Icons/level3Icon14.png">'
       clearInterval(icon16MtachInterval)
       Win--
       CheckWin()
@@ -1460,12 +1460,12 @@ icon16Match.addEventListener('click', () => {
   }, 2000)
 })
 icon17Match.addEventListener('click', () => {
-  icon17MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon15.png">'
+  icon17MatchIMG.innerHTML = '<img src="../Icons/level3Icon15.png">'
   let icon17MtachInterval = 0
 
   icon17MtachInterval = setInterval(() => {
-    if (icon17IMG.innerHTML == '<img src="../Icons/impLevelIcon15.png">') {
-      icon17MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon15.png">'
+    if (icon17IMG.innerHTML == '<img src="../Icons/level3Icon15.png">') {
+      icon17MatchIMG.innerHTML = '<img src="../Icons/level3Icon15.png">'
       clearInterval(icon17MtachInterval)
       Win--
       CheckWin()
@@ -1476,12 +1476,12 @@ icon17Match.addEventListener('click', () => {
   }, 2000)
 })
 icon18Match.addEventListener('click', () => {
-  icon18MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon16.png">'
+  icon18MatchIMG.innerHTML = '<img src="../Icons/level3Icon16.png">'
   let icon18MtachInterval = 0
 
   icon18MtachInterval = setInterval(() => {
-    if (icon18IMG.innerHTML == '<img src="../Icons/impLevelIcon16.png">') {
-      icon18MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon16.png">'
+    if (icon18IMG.innerHTML == '<img src="../Icons/level3Icon16.png">') {
+      icon18MatchIMG.innerHTML = '<img src="../Icons/level3Icon16.png">'
       clearInterval(icon18MtachInterval)
       Win--
       CheckWin()
@@ -1492,12 +1492,12 @@ icon18Match.addEventListener('click', () => {
   }, 2000)
 })
 icon19Match.addEventListener('click', () => {
-  icon19MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon17.png">'
+  icon19MatchIMG.innerHTML = '<img src="../Icons/level3Icon17.png">'
   let icon19MtachInterval = 0
 
   icon19MtachInterval = setInterval(() => {
-    if (icon19IMG.innerHTML == '<img src="../Icons/impLevelIcon17.png">') {
-      icon19MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon17.png">'
+    if (icon19IMG.innerHTML == '<img src="../Icons/level3Icon17.png">') {
+      icon19MatchIMG.innerHTML = '<img src="../Icons/level3Icon17.png">'
       clearInterval(icon19MtachInterval)
       Win--
       CheckWin()
@@ -1508,12 +1508,12 @@ icon19Match.addEventListener('click', () => {
   }, 2000)
 })
 icon20Match.addEventListener('click', () => {
-  icon20MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon18.png">'
+  icon20MatchIMG.innerHTML = '<img src="../Icons/level3Icon18.png">'
   let icon20MtachInterval = 0
 
   icon20MtachInterval = setInterval(() => {
-    if (icon20IMG.innerHTML == '<img src="../Icons/impLevelIcon18.png">') {
-      icon20MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon18.png">'
+    if (icon20IMG.innerHTML == '<img src="../Icons/level3Icon18.png">') {
+      icon20MatchIMG.innerHTML = '<img src="../Icons/level3Icon18.png">'
       clearInterval(icon20MtachInterval)
       Win--
       CheckWin()
@@ -1525,12 +1525,12 @@ icon20Match.addEventListener('click', () => {
 })
 
 icon21Match.addEventListener('click', () => {
-  icon21MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon19.png">'
+  icon21MatchIMG.innerHTML = '<img src="../Icons/level3Icon19.png">'
   let icon21MtachInterval = 0
 
   icon21MtachInterval = setInterval(() => {
-    if (icon21IMG.innerHTML == '<img src="../Icons/impLevelIcon19.png">') {
-      icon21MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon19.png">'
+    if (icon21IMG.innerHTML == '<img src="../Icons/level3Icon19.png">') {
+      icon21MatchIMG.innerHTML = '<img src="../Icons/level3Icon19.png">'
       clearInterval(icon21MtachInterval)
       Win--
       CheckWin()
@@ -1542,12 +1542,12 @@ icon21Match.addEventListener('click', () => {
 })
 
 icon22Match.addEventListener('click', () => {
-  icon22MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon20.png">'
+  icon22MatchIMG.innerHTML = '<img src="../Icons/level3Icon20.png">'
   let icon22MtachInterval = 0
 
   icon22MtachInterval = setInterval(() => {
-    if (icon22IMG.innerHTML == '<img src="../Icons/impLevelIcon20.png">') {
-      icon22MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon20.png">'
+    if (icon22IMG.innerHTML == '<img src="../Icons/level3Icon20.png">') {
+      icon22MatchIMG.innerHTML = '<img src="../Icons/level3Icon20.png">'
       clearInterval(icon22MtachInterval)
       Win--
       CheckWin()
@@ -1558,12 +1558,12 @@ icon22Match.addEventListener('click', () => {
   }, 2000)
 })
 icon23Match.addEventListener('click', () => {
-  icon23MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon21.png">'
+  icon23MatchIMG.innerHTML = '<img src="../Icons/level3Icon21.png">'
   let icon23MtachInterval = 0
 
   icon23MtachInterval = setInterval(() => {
-    if (icon23IMG.innerHTML == '<img src="../Icons/impLevelIcon21.png">') {
-      icon23MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon21.png">'
+    if (icon23IMG.innerHTML == '<img src="../Icons/level3Icon21.png">') {
+      icon23MatchIMG.innerHTML = '<img src="../Icons/level3Icon21.png">'
       clearInterval(icon23MtachInterval)
       Win--
       CheckWin()
@@ -1574,12 +1574,12 @@ icon23Match.addEventListener('click', () => {
   }, 2000)
 })
 icon24Match.addEventListener('click', () => {
-  icon24MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon22.png">'
+  icon24MatchIMG.innerHTML = '<img src="../Icons/level3Icon22.png">'
   let icon24MtachInterval = 0
 
   icon24MtachInterval = setInterval(() => {
-    if (icon24IMG.innerHTML == '<img src="../Icons/impLevelIcon22.png">') {
-      icon24MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon22.png">'
+    if (icon24IMG.innerHTML == '<img src="../Icons/level3Icon22.png">') {
+      icon24MatchIMG.innerHTML = '<img src="../Icons/level3Icon22.png">'
       clearInterval(icon24MtachInterval)
       Win--
       CheckWin()
@@ -1590,12 +1590,12 @@ icon24Match.addEventListener('click', () => {
   }, 2000)
 })
 icon25Match.addEventListener('click', () => {
-  icon25MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon23.png">'
+  icon25MatchIMG.innerHTML = '<img src="../Icons/level3Icon23.png">'
   let icon25MtachInterval = 0
 
   icon25MtachInterval = setInterval(() => {
-    if (icon25IMG.innerHTML == '<img src="../Icons/impLevelIcon23.png">') {
-      icon25MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon23.png">'
+    if (icon25IMG.innerHTML == '<img src="../Icons/level3Icon23.png">') {
+      icon25MatchIMG.innerHTML = '<img src="../Icons/level3Icon23.png">'
       clearInterval(icon25MtachInterval)
       Win--
       CheckWin()
@@ -1606,12 +1606,12 @@ icon25Match.addEventListener('click', () => {
   }, 2000)
 })
 icon26Match.addEventListener('click', () => {
-  icon26MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon24.png">'
+  icon26MatchIMG.innerHTML = '<img src="../Icons/level3Icon24.png">'
   let icon26MtachInterval = 0
 
   icon26MtachInterval = setInterval(() => {
-    if (icon26IMG.innerHTML == '<img src="../Icons/impLevelIcon24.png">') {
-      icon26MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon24.png">'
+    if (icon26IMG.innerHTML == '<img src="../Icons/level3Icon24.png">') {
+      icon26MatchIMG.innerHTML = '<img src="../Icons/level3Icon24.png">'
       clearInterval(icon26MtachInterval)
       Win--
       CheckWin()
@@ -1622,12 +1622,12 @@ icon26Match.addEventListener('click', () => {
   }, 2000)
 })
 icon27Match.addEventListener('click', () => {
-  icon27MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon25.png">'
+  icon27MatchIMG.innerHTML = '<img src="../Icons/level3Icon25.png">'
   let icon27MtachInterval = 0
 
   icon27MtachInterval = setInterval(() => {
-    if (icon27IMG.innerHTML == '<img src="../Icons/impLevelIcon25.png">') {
-      icon27MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon25.png">'
+    if (icon27IMG.innerHTML == '<img src="../Icons/level3Icon25.png">') {
+      icon27MatchIMG.innerHTML = '<img src="../Icons/level3Icon25.png">'
       clearInterval(icon27MtachInterval)
       Win--
       CheckWin()
@@ -1638,12 +1638,12 @@ icon27Match.addEventListener('click', () => {
   }, 2000)
 })
 icon28Match.addEventListener('click', () => {
-  icon28MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon26.png">'
+  icon28MatchIMG.innerHTML = '<img src="../Icons/level3Icon26.png">'
   let icon28MtachInterval = 0
 
   icon28MtachInterval = setInterval(() => {
-    if (icon28IMG.innerHTML == '<img src="../Icons/impLevelIcon26.png">') {
-      icon28MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon26.png">'
+    if (icon28IMG.innerHTML == '<img src="../Icons/level3Icon26.png">') {
+      icon28MatchIMG.innerHTML = '<img src="../Icons/level3Icon26.png">'
       clearInterval(icon28MtachInterval)
       Win--
       CheckWin()
@@ -1654,12 +1654,12 @@ icon28Match.addEventListener('click', () => {
   }, 2000)
 })
 icon29Match.addEventListener('click', () => {
-  icon29MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon27.png">'
+  icon29MatchIMG.innerHTML = '<img src="../Icons/level3Icon27.png">'
   let icon29MtachInterval = 0
 
   icon29MtachInterval = setInterval(() => {
-    if (icon29IMG.innerHTML == '<img src="../Icons/impLevelIcon27.png">') {
-      icon29MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon27.png">'
+    if (icon29IMG.innerHTML == '<img src="../Icons/level3Icon27.png">') {
+      icon29MatchIMG.innerHTML = '<img src="../Icons/level3Icon27.png">'
       clearInterval(icon29MtachInterval)
       Win--
       CheckWin()
@@ -1670,12 +1670,12 @@ icon29Match.addEventListener('click', () => {
   }, 2000)
 })
 icon30Match.addEventListener('click', () => {
-  icon30MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon28.png">'
+  icon30MatchIMG.innerHTML = '<img src="../Icons/level3Icon28.png">'
   let icon30MtachInterval = 0
 
   icon30MtachInterval = setInterval(() => {
-    if (icon30IMG.innerHTML == '<img src="../Icons/impLevelIcon28.png">') {
-      icon30MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon28.png">'
+    if (icon30IMG.innerHTML == '<img src="../Icons/level3Icon28.png">') {
+      icon30MatchIMG.innerHTML = '<img src="../Icons/level3Icon28.png">'
       clearInterval(icon30MtachInterval)
       Win--
       CheckWin()
@@ -1686,12 +1686,12 @@ icon30Match.addEventListener('click', () => {
   }, 2000)
 })
 icon31Match.addEventListener('click', () => {
-  icon31MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon29.png">'
+  icon31MatchIMG.innerHTML = '<img src="../Icons/level3Icon29.png">'
   let icon31MtachInterval = 0
 
   icon31MtachInterval = setInterval(() => {
-    if (icon31IMG.innerHTML == '<img src="../Icons/impLevelIcon29.png">') {
-      icon31MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon29.png">'
+    if (icon31IMG.innerHTML == '<img src="../Icons/level3Icon29.png">') {
+      icon31MatchIMG.innerHTML = '<img src="../Icons/level3Icon29.png">'
       clearInterval(icon31MtachInterval)
       Win--
       CheckWin()
@@ -1702,12 +1702,12 @@ icon31Match.addEventListener('click', () => {
   }, 2000)
 })
 icon32Match.addEventListener('click', () => {
-  icon32MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon30.png">'
+  icon32MatchIMG.innerHTML = '<img src="../Icons/level3Icon30.png">'
   let icon32MtachInterval = 0
 
   icon32MtachInterval = setInterval(() => {
-    if (icon32IMG.innerHTML == '<img src="../Icons/impLevelIcon30.png">') {
-      icon32MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon30.png">'
+    if (icon32IMG.innerHTML == '<img src="../Icons/level3Icon30.png">') {
+      icon32MatchIMG.innerHTML = '<img src="../Icons/level3Icon30.png">'
       clearInterval(icon32MtachInterval)
       Win--
       CheckWin()
@@ -1718,12 +1718,12 @@ icon32Match.addEventListener('click', () => {
   }, 2000)
 })
 icon33Match.addEventListener('click', () => {
-  icon33MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon31.png">'
+  icon33MatchIMG.innerHTML = '<img src="../Icons/level3Icon31.png">'
   let icon33MtachInterval = 0
 
   icon33MtachInterval = setInterval(() => {
-    if (icon33IMG.innerHTML == '<img src="../Icons/impLevelIcon31.png">') {
-      icon33MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon31.png">'
+    if (icon33IMG.innerHTML == '<img src="../Icons/level3Icon31.png">') {
+      icon33MatchIMG.innerHTML = '<img src="../Icons/level3Icon31.png">'
       clearInterval(icon33MtachInterval)
       Win--
       CheckWin()
@@ -1734,12 +1734,12 @@ icon33Match.addEventListener('click', () => {
   }, 2000)
 })
 icon34Match.addEventListener('click', () => {
-  icon34MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon32.png">'
+  icon34MatchIMG.innerHTML = '<img src="../Icons/level3Icon32.png">'
   let icon34MtachInterval = 0
 
   icon34MtachInterval = setInterval(() => {
-    if (icon34IMG.innerHTML == '<img src="../Icons/impLevelIcon32.png">') {
-      icon34MatchIMG.innerHTML = '<img src="../Icons/impLevelIcon32.png">'
+    if (icon34IMG.innerHTML == '<img src="../Icons/level3Icon32.png">') {
+      icon34MatchIMG.innerHTML = '<img src="../Icons/level3Icon32.png">'
       clearInterval(icon34MtachInterval)
       Win--
       CheckWin()

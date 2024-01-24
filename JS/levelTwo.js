@@ -84,8 +84,12 @@ let icon20MatchIMG = document.getElementById('icon20MatchIMG')
 function CheckWin() {
   if (Win == 0) {
     clearInterval(interval)
-    winner.innerHTML = '<h1>YOU WON !!!! :)</h1>'
+    winner.innerHTML =
+      '<h1>YOU WON !!!! :)</h1> <br> <br><br><button class="nextLevelBtn" onclick="GoToFinalLevel()">Next Level</button>'
   }
+}
+function GoToFinalLevel() {
+  window.location.href = 'PageFive.html'
 }
 function RepeatLevel() {
   window.location.reload()
