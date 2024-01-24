@@ -697,7 +697,6 @@ function ShowMeHints() {
 
 function getTimer() {
   let timer = 140
-  console.log(timer)
   time = timer
   interval = setInterval(function () {
     document.getElementById('timerDiv').innerHTML =

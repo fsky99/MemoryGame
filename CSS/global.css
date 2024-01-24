@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
-
 body {
   font-family: 'Cinzel', sans-serif;
   text-align: center;
@@ -10,7 +9,6 @@ body {
   width: 43%;
   margin: 0 auto;
 }
-
 table {
   width: 600px;
   height: 500px;
@@ -49,7 +47,6 @@ ol {
   margin-left: -300px;
   position: fixed;
 }
-
 .nextLevelBtn {
   position: relative;
   width: 120px;
@@ -66,7 +63,6 @@ ol {
   border-radius: 8px;
   cursor: pointer;
 }
-
 .nextLevelBtn::before {
   content: '';
   position: absolute;
@@ -82,7 +78,6 @@ ol {
   pointer-events: none;
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-
 .nextLevelBtn::after {
   content: '';
   z-index: -1;
@@ -92,32 +87,26 @@ ol {
   transform: translate3d(0, 0, 0) scale(0.95);
   filter: blur(20px);
 }
-
 .nextLevelBtn:hover::after {
   filter: blur(30px);
 }
-
 .nextLevelBtn:hover::before {
   transform: rotate(-180deg);
 }
-
 .nextLevelBtn:active::before {
   scale: 0.7;
 }
-
 .radio-form {
   display: block;
   margin: auto;
   max-width: 10em;
   position: relative;
 }
-
 .radio-form input {
   position: fixed;
   top: -1.5em;
   left: -1.5em;
 }
-
 .radio-form label {
   cursor: pointer;
   display: block;
@@ -125,11 +114,9 @@ ol {
   text-shadow: 0 0.1em 0.1em rgba(0, 0, 0, 0.2);
   transition: color 0.2s cubic-bezier(0.45, 0.05, 0.55, 0.95);
 }
-
 .radio-form label:not(:last-of-type) {
   margin-bottom: 1.5em;
 }
-
 .radio-form label span {
   box-shadow: 0 0 0 0.2em currentColor inset, 0 0.2em 0.2em rgba(0, 0, 0, 0.2),
     0 0.3em 0.2em rgba(0, 0, 0, 0.2) inset;
@@ -143,27 +130,22 @@ ol {
     box-shadow 0.2s cubic-bezier(0.45, 0.05, 0.55, 0.95),
     color 0.2s cubic-bezier(0.45, 0.05, 0.55, 0.95);
 }
-
 .radio-form input:checked + label,
 .radio-form input:checked + label span {
   color: #255ff4;
 }
-
 .radio-form input:checked + label,
 .radio-form input:checked + label span {
   transition-delay: 0.4s;
 }
-
 .radio-form label span {
   transform: scale(1.2);
 }
-
 .radio-form .worm {
   top: 0.375em;
   left: 0.375em;
   position: absolute;
 }
-
 .radio-form .worm__segment {
   position: absolute;
   top: 0;
@@ -173,7 +155,6 @@ ol {
   border-radius: 50%;
   transition: transform 0.4s cubic-bezier(0.45, 0.05, 0.55, 0.95);
 }
-
 .radio-form .worm__segment:before {
   animation-duration: 0.4s;
   animation-timing-function: cubic-bezier(0.45, 0.05, 0.55, 0.95);
@@ -184,12 +165,10 @@ ol {
   height: 100%;
   border-radius: 50%;
 }
-
 .radio-form .worm__segment:first-child:before,
 .radio-form .worm__segment:last-child:before {
   box-shadow: 0 0 1em 0 currentColor;
 }
-
 @keyframes hop1 {
   from,
   to {
@@ -200,7 +179,6 @@ ol {
     transform: translateX(-1.5em);
   }
 }
-
 @keyframes hop2 {
   from,
   to {
@@ -211,7 +189,6 @@ ol {
     transform: translateX(-1.5em);
   }
 }
-
 @keyframes hop3 {
   from,
   to {
@@ -222,31 +199,24 @@ ol {
     transform: translateX(-1.5em);
   }
 }
-
 .radio-form input:nth-of-type(1):checked ~ .worm .worm__segment {
   transform: translateY(0);
 }
-
 .radio-form input:nth-of-type(1):checked ~ .worm .worm__segment:before {
   animation-name: hop1;
 }
-
 .radio-form input:nth-of-type(2):checked ~ .worm .worm__segment {
   transform: translateY(3em);
 }
-
 .radio-form input:nth-of-type(2):checked ~ .worm .worm__segment:before {
   animation-name: hop2;
 }
-
 .radio-form input:nth-of-type(3):checked ~ .worm .worm__segment {
   transform: translateY(6em);
 }
-
 .radio-form input:nth-of-type(3):checked ~ .worm .worm__segment:before {
   animation-name: hop3;
 }
-
 @media screen and (prefers-color-scheme: dark) {
   body {
     background: #17181c;
@@ -283,7 +253,6 @@ ol {
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
-
 #container-stars {
   position: absolute;
   z-index: -1;
@@ -294,7 +263,6 @@ ol {
   backdrop-filter: blur(1rem);
   border-radius: 5rem;
 }
-
 strong {
   z-index: 2;
   font-family: 'Avalors Personal Use';
@@ -303,13 +271,11 @@ strong {
   color: #ffffff;
   text-shadow: 0 0 4px white;
 }
-
 #glow {
   position: absolute;
   display: flex;
   width: 12rem;
 }
-
 .circle {
   width: 100%;
   height: 30px;
@@ -317,42 +283,34 @@ strong {
   animation: pulse_3011 4s infinite;
   z-index: -1;
 }
-
 .circle:nth-of-type(1) {
   background: rgba(254, 83, 186, 0.636);
 }
-
 .circle:nth-of-type(2) {
   background: rgba(142, 81, 234, 0.704);
 }
-
 .btn:hover #container-stars {
   z-index: 1;
   background-color: #212121;
 }
-
 .btn:hover {
   transform: scale(1.1);
 }
-
 .btn:active {
   border: double 4px #fe53bb;
   background-origin: border-box;
   background-clip: content-box, border-box;
   animation: none;
 }
-
 .btn:active .circle {
   background: #fe53bb;
 }
-
 #stars {
   position: relative;
   background: transparent;
   width: 200rem;
   height: 200rem;
 }
-
 #stars::after {
   content: '';
   position: absolute;
@@ -362,12 +320,10 @@ strong {
   height: 100%;
   animation: animStarRotate 90s linear infinite;
 }
-
 #stars::after {
   background-image: radial-gradient(#ffffff 1px, transparent 1%);
   background-size: 50px 50px;
 }
-
 #stars::before {
   content: '';
   position: absolute;
@@ -377,13 +333,11 @@ strong {
   height: 500%;
   animation: animStar 60s linear infinite;
 }
-
 #stars::before {
   background-image: radial-gradient(#ffffff 1px, transparent 1%);
   background-size: 50px 50px;
   opacity: 0.5;
 }
-
 @keyframes animStar {
   from {
     transform: translateY(0);
@@ -393,7 +347,6 @@ strong {
     transform: translateY(-135rem);
   }
 }
-
 @keyframes animStarRotate {
   from {
     transform: rotate(360deg);
@@ -403,7 +356,6 @@ strong {
     transform: rotate(0);
   }
 }
-
 @keyframes gradient_301 {
   0% {
     background-position: 0% 50%;
@@ -417,7 +369,6 @@ strong {
     background-position: 0% 50%;
   }
 }
-
 @keyframes pulse_3011 {
   0% {
     transform: scale(0.75);
@@ -439,7 +390,6 @@ strong {
   height: 70px;
   width: 350px;
 }
-
 .card svg {
   position: absolute;
   display: flex;
@@ -453,7 +403,6 @@ strong {
   padding: 0.25rem;
   cursor: pointer;
 }
-
 .card .social-link1,
 .card .social-link2,
 .card .social-link3,
@@ -470,11 +419,9 @@ strong {
   transition: 0.25s;
   border-radius: 50px;
 }
-
 .card svg {
   transform: scale(1);
 }
-
 .card .social-link1:hover {
   background: #f09433;
   background: -moz-linear-gradient(
@@ -504,27 +451,22 @@ strong {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
   animation: bounce_613 0.4s linear;
 }
-
 .card .social-link2:hover {
   background-color: #242c34;
   animation: bounce_613 0.4s linear;
 }
-
 .card .social-link3:hover {
   background-color: #5865f2;
   animation: bounce_613 0.4s linear;
 }
-
 .card .social-link4:hover {
   background-color: #0a66c2;
   animation: bounce_613 0.4s linear;
 }
-
 .card .social-link5:hover {
   background-color: #ff8000;
   animation: bounce_613 0.4s linear;
 }
-
 @keyframes bounce_613 {
   40% {
     transform: scale(1.4);
@@ -542,7 +484,6 @@ strong {
     transform: scale(1);
   }
 }
-
 #TheRulesDiv {
   justify-content: center;
   text-align: center;
@@ -576,7 +517,6 @@ strong {
     #44ce7b
   );
 }
-
 .btn2:hover {
   animation: rotate 0.4s linear infinite;
 }

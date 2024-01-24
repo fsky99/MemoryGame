@@ -16,7 +16,7 @@
 
 ---
 
-### **_Future Updates_**
+### **_Extra Levels Updates_**
 
 - [ ] 6x6 Matching
 - [ ] 8x8 Matching
@@ -29,12 +29,36 @@
 
 ## ![MGMap](MemoryGameWireframeMap.png)
 
+##### Home Page:
+
+## ![HomePage](homePage.png)
+
+##### Rules Page:
+
+## ![RulesPOnePage](rulesPageP1.png)
+
+## ![RulesPTwoPage](rulesPagep2.png)
+
+##### Level One 4x4 Page:
+
+## ![LevelOnePage](levelOne.png)
+
+##### Level Two 6x6 Page:
+
+## ![LevelTwoPage](levelTwo.png)
+
+##### Impossible level 8x8 Page:
+
+## ![LevelImpPage](impLevel.png)
+
 ### **_Credits_**
 
 ##### WireFrame: [MGMap](https://wireframe.cc/qBbFEG)
 
 ##### Icons: [Icons](https://icons8.com/icons)
 
+##### Programming Icons: [PIcons](https://www.flaticon.com/search/2?word=coding)
+
 ##### Buttons and style: [buttons](https://uiverse.io/)
 
----
+##### Google fonts: [fonts](https://fonts.google.com/)

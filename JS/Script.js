@@ -37,6 +37,8 @@ let icon5MatchIMG = document.getElementById('icon5MatchIMG')
 let icon6MatchIMG = document.getElementById('icon6MatchIMG')
 let icon8MatchIMG = document.getElementById('icon8MatchIMG')
 let icon10MatchIMG = document.getElementById('icon10MatchIMG')
+
+//function to check if there's a win , it will stop the time and show  a message
 function CheckWin() {
   if (Win == 0) {
     clearInterval(interval)
@@ -195,17 +197,16 @@ function ShowMeHints() {
     }
   }, 500)
 }
-
+// function to deal with the timer
 function getTimer() {
   let timer = localStorage.getItem('timer')
-  console.log(timer)
   time = timer
   interval = setInterval(function () {
     document.getElementById('timerDiv').innerHTML =
       '<h5>' + time + ' Seconds</h5>'
     if (Win == 0) {
-      document.getElementById('MainDiv').innerHTML = ''
       clearInterval(interval)
+      document.getElementById('MainDiv').innerHTML = ''
     } else if (time == 0) {
       clearInterval(interval)
       document.getElementById('MainDiv').innerHTML =
@@ -215,6 +216,8 @@ function getTimer() {
   }, 1000)
 }
 getTimer()
+
+//event listner for each cell to show the pictures
 icon1.addEventListener('click', () => {
   icon1IMG.innerHTML = '<img src="../Icons/icon1.png">'
   let icon1Interval = 0
