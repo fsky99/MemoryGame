@@ -20,6 +20,7 @@
 
 ##### Live Link: [MemoryGame](https://smemorygameffh.surge.sh)
 ##### Faster Live Link: [MemoryGame](https://tmdb--profound-haupia-997501.netlify.app/index.html)
+##### Youtube Video for the game: [MemoryGame](https://youtu.be/4cp2emWaZk0?feature=shared)
 ### **_Extra Levels Updates_**
 
 - [ ] 6x6 Matching
